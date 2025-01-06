@@ -1,0 +1,733 @@
+"PMID","First.author","Year","Record.no","Group.ID","Group.name","Vaccinated_cases","Vaccinated_controls","Unvaccinated_cases","Unvaccinated_controls","VE","VE_ll","VE_ul","Severity","Time","Vaccination.type","Variant","Exposed_age","logRR"
+37839947,"Takeshi Arashiro",2023,1,"A","2*mRNA",82,180,516,371,52,34,66,"Mild infection",51.5,"2*mRNA","Omicron","All",-0.7339691750802
+37839947,"Takeshi Arashiro",2023,2,"A","2*mRNA",823,1043,516,371,50,39,58,"Mild infection",134.5,"2*mRNA","Omicron","All",-0.693147180559945
+37839947,"Takeshi Arashiro",2023,5,"C","2*mRNA",17,14,499,180,49,-17,77,"Mild infection",51.5,"2*mRNA","Omicron","All",-0.673344553263766
+37839947,"Takeshi Arashiro",2023,6,"C","2*mRNA",53,40,499,180,56,27,73,"Mild infection",134.5,"2*mRNA","Omicron","All",-0.82098055206983
+35918782,"Takeshi Arashiro",2023,1,"A","2*mRNA",30,289,561,474,88,82,93,"Mild infection",51.5,"2*mRNA","Delta","Adults",-2.12026353620009
+35918782,"Takeshi Arashiro",2023,2,"A","2*mRNA",2,21,561,474,87,38,97,"Mild infection",134.5,"2*mRNA","Delta","Adults",-2.04022082852655
+35918782,"Takeshi Arashiro",2023,3,"B","2*mRNA",74,169,361,221,56,37,70,"Mild infection",51.5,"2*mRNA","Omicron","Adults",-0.82098055206983
+35918782,"Takeshi Arashiro",2023,4,"B","2*mRNA",767,971,361,221,52,40,62,"Mild infection",134.5,"2*mRNA","Omicron","Adults",-0.7339691750802
+36630477,"Thiago Cerqueira-Silva",2023,1,"A","2*ChAdOx1",23179,19434,193608,126679,26.7,25.2,28.2,"Mild infection",36.5,"Primary series viral vector","Omicron","Adults",-0.310609577095486
+36630477,"Thiago Cerqueira-Silva",2023,2,"A","2*ChAdOx1",759520,407927,193608,126679,-0.3,-1.2,0.6,"Mild infection",89.5,"Primary series viral vector","Omicron","Adults",0.00299550897979837
+36630477,"Thiago Cerqueira-Silva",2023,7,"C","2*BNT162b2",64872,85901,193608,126679,49.2,48.5,49.9,"Mild infection",36.5,"2*mRNA","Omicron","Adults",-0.677273831403655
+36630477,"Thiago Cerqueira-Silva",2023,8,"C","2*BNT162b2",725973,553183,193608,126679,19.4,18.7,20.1,"Mild infection",89.5,"2*mRNA","Omicron","Adults",-0.215671536475509
+36630477,"Thiago Cerqueira-Silva",2023,29,"I","2*ChAdOx1",156,19434,10356,126679,77.1,72.9,80.6,"Severe",36.5,"Primary series viral vector","Omicron","Adults",-1.4740332754279
+36630477,"Thiago Cerqueira-Silva",2023,30,"I","2*ChAdOx1",4487,407927,10356,126679,76.3,75.2,77.3,"Severe",89.5,"Primary series viral vector","Omicron","Adults",-1.43969513784701
+36630477,"Thiago Cerqueira-Silva",2023,35,"K","2*BNT162b2",305,85901,10356,126679,82.9,80.6,85,"Severe",36.5,"2*mRNA","Omicron","Adults",-1.76609172247948
+36630477,"Thiago Cerqueira-Silva",2023,36,"K","2*BNT162b2",2341,553183,10356,126679,84.9,84,85.7,"Severe",89.5,"2*mRNA","Omicron","Adults",-1.89047544216721
+36795625,"Katherine E Fleming-Dutra",2023,1,"A","2*mRNA-1273",81,735,9523,25459,60,49,68,"Mild infection",51.5,"2*mRNA","Omicron","Children",-0.916290731874155
+36795625,"Katherine E Fleming-Dutra",2023,2,"A","2*mRNA-1273",58,437,9523,25459,36,15,52,"Mild infection",119.5,"2*mRNA","Omicron","Children",-0.446287102628419
+36645782,"Iulia G Ionescu",2023,1,"A","2*BNT162b2",15,5146,1649,13911,97.7,96.2,98.6,"Mild infection",20.5,"2*mRNA","Delta","Children",-3.77226106305299
+36645782,"Iulia G Ionescu",2023,2,"A","2*BNT162b2",82,23655,1649,13911,97,96.3,97.6,"Mild infection",41.5,"2*mRNA","Delta","Children",-3.50655789731998
+36645782,"Iulia G Ionescu",2023,3,"A","2*BNT162b2",131,31159,1649,13911,96.1,95.3,96.7,"Mild infection",69.5,"2*mRNA","Delta","Children",-3.24419363285249
+36645782,"Iulia G Ionescu",2023,4,"A","2*BNT162b2",162,21567,1649,13911,93.8,92.7,94.8,"Mild infection",97.5,"2*mRNA","Delta","Children",-2.78062089393704
+36645782,"Iulia G Ionescu",2023,5,"A","2*BNT162b2",88,8326,1649,13911,92.4,90.4,94,"Mild infection",125.5,"2*mRNA","Delta","Children",-2.57702193869581
+36645782,"Iulia G Ionescu",2023,6,"B","2*BNT162b2",11,288,845,3644,83.1,68.9,90.8,"Mild infection",20.5,"2*mRNA","Mixture of variants","Children",-1.77785656405906
+36645782,"Iulia G Ionescu",2023,7,"B","2*BNT162b2",25,922,845,3644,88.2,82.3,92.1,"Mild infection",41.5,"2*mRNA","Mixture of variants","Children",-2.13707065451647
+36645782,"Iulia G Ionescu",2023,8,"B","2*BNT162b2",64,1754,845,3644,84.3,79.6,87.9,"Mild infection",69.5,"2*mRNA","Mixture of variants","Children",-1.85150947363383
+36645782,"Iulia G Ionescu",2023,9,"B","2*BNT162b2",143,5331,845,3644,87.6,85.1,89.7,"Mild infection",97.5,"2*mRNA","Mixture of variants","Children",-2.0874737133771
+36645782,"Iulia G Ionescu",2023,10,"B","2*BNT162b2",689,15225,845,3644,82.7,80.7,84.6,"Mild infection",125.5,"2*mRNA","Mixture of variants","Children",-1.75446368448436
+36645782,"Iulia G Ionescu",2023,11,"B","2*BNT162b2",535,7542,845,3644,75.4,72.1,78.4,"Mild infection",153.5,"2*mRNA","Mixture of variants","Children",-1.40242374304977
+36645782,"Iulia G Ionescu",2023,12,"C","2*BNT162b2",45,224,1752,2140,75.6,65.8,82.6,"Mild infection",20.5,"2*mRNA","Omicron","Children",-1.41058705368893
+36645782,"Iulia G Ionescu",2023,13,"C","2*BNT162b2",182,536,1752,2140,59.3,50.9,66.3,"Mild infection",41.5,"2*mRNA","Omicron","Children",-0.898942093539542
+36645782,"Iulia G Ionescu",2023,14,"C","2*BNT162b2",376,811,1752,2140,48.1,39.9,55.1,"Mild infection",69.5,"2*mRNA","Omicron","Children",-0.655851395816249
+36645782,"Iulia G Ionescu",2023,15,"C","2*BNT162b2",784,1613,1752,2140,50.9,44.9,56.3,"Mild infection",97.5,"2*mRNA","Omicron","Children",-0.711311151187616
+36645782,"Iulia G Ionescu",2023,16,"C","2*BNT162b2",3081,6061,1752,2140,46,40.9,50.7,"Mild infection",125.5,"2*mRNA","Omicron","Children",-0.616186139423817
+36645782,"Iulia G Ionescu",2023,17,"C","2*BNT162b2",5897,10773,1752,2140,44.6,40,49,"Mild infection",153.5,"2*mRNA","Omicron","Children",-0.590590592234853
+36645782,"Iulia G Ionescu",2023,19,"D","2*BNT162b2",32,107,1225,1019,72.1,57.6,81.6,"Mild infection",20.5,"2*mRNA","Omicron","Children",-1.27654349716077
+36645782,"Iulia G Ionescu",2023,20,"D","2*BNT162b2",121,306,1225,1019,64.5,55.1,72,"Mild infection",41.5,"2*mRNA","Omicron","Children",-1.03563748950672
+36645782,"Iulia G Ionescu",2023,21,"D","2*BNT162b2",294,525,1225,1019,50.2,40.8,58.1,"Mild infection",69.5,"2*mRNA","Omicron","Children",-0.697155201957484
+36645782,"Iulia G Ionescu",2023,22,"D","2*BNT162b2",674,1250,1225,1019,53.6,47.1,59.3,"Mild infection",97.5,"2*mRNA","Omicron","Children",-0.767870726755882
+36645782,"Iulia G Ionescu",2023,23,"D","2*BNT162b2",2849,5382,1225,1019,49.1,43.7,54.1,"Mild infection",125.5,"2*mRNA","Omicron","Children",-0.675307262431614
+36645782,"Iulia G Ionescu",2023,24,"D","2*BNT162b2",5256,8976,1225,1019,47.7,42.4,52.4,"Mild infection",153.5,"2*mRNA","Omicron","Children",-0.648173814917214
+36645782,"Iulia G Ionescu",2023,26,"E","2*BNT162b2",12,1397,2076,8094,96.8,94.4,98.2,"Mild infection",20.5,"2*mRNA","Delta","Children",-3.44201937618241
+36645782,"Iulia G Ionescu",2023,27,"E","2*BNT162b2",60,7624,2076,8094,96.7,95.7,97.5,"Mild infection",41.5,"2*mRNA","Delta","Children",-3.41124771751566
+36645782,"Iulia G Ionescu",2023,28,"E","2*BNT162b2",105,13437,2076,8094,96.2,95.3,96.9,"Mild infection",69.5,"2*mRNA","Delta","Children",-3.27016911925575
+36645782,"Iulia G Ionescu",2023,29,"E","2*BNT162b2",96,7316,2076,8094,95.2,94.1,96.2,"Mild infection",97.5,"2*mRNA","Delta","Children",-3.03655426807425
+36645782,"Iulia G Ionescu",2023,30,"E","2*BNT162b2",53,1982,2076,8094,90.9,87.7,93.2,"Mild infection",125.5,"2*mRNA","Delta","Children",-2.39689577246529
+36645782,"Iulia G Ionescu",2023,31,"F","2*BNT162b2",3,224,264,1029,94.8,83.7,98.4,"Mild infection",41.5,"2*mRNA","Mixture of variants","Children",-2.95651156040071
+36645782,"Iulia G Ionescu",2023,32,"F","2*BNT162b2",10,319,264,1029,87.8,76.6,93.6,"Mild infection",69.5,"2*mRNA","Mixture of variants","Children",-2.10373423424888
+36645782,"Iulia G Ionescu",2023,33,"F","2*BNT162b2",14,670,264,1029,91.6,85.4,95.2,"Mild infection",97.5,"2*mRNA","Mixture of variants","Children",-2.47693848013882
+36645782,"Iulia G Ionescu",2023,34,"F","2*BNT162b2",97,2836,264,1029,86.5,82.5,89.5,"Mild infection",125.5,"2*mRNA","Mixture of variants","Children",-2.00248050054371
+36645782,"Iulia G Ionescu",2023,35,"F","2*BNT162b2",53,1211,264,1029,84.2,77.8,88.8,"Mild infection",153.5,"2*mRNA","Mixture of variants","Children",-1.84516024595517
+36645782,"Iulia G Ionescu",2023,36,"G","2*BNT162b2",9,32,665,944,63.4,21.4,83,"Mild infection",20.5,"2*mRNA","Omicron","Children",-1.00512194558077
+36645782,"Iulia G Ionescu",2023,37,"G","2*BNT162b2",36,122,665,944,57.7,37.2,71.6,"Mild infection",41.5,"2*mRNA","Omicron","Children",-0.860383099935859
+36645782,"Iulia G Ionescu",2023,38,"G","2*BNT162b2",108,234,665,944,40.8,23.2,54.4,"Mild infection",69.5,"2*mRNA","Omicron","Children",-0.524248644098131
+36645782,"Iulia G Ionescu",2023,39,"G","2*BNT162b2",180,371,665,944,37.7,22.7,49.7,"Mild infection",97.5,"2*mRNA","Omicron","Children",-0.473208760194684
+36645782,"Iulia G Ionescu",2023,40,"G","2*BNT162b2",364,1100,665,944,47.5,37.6,55.8,"Mild infection",125.5,"2*mRNA","Omicron","Children",-0.644357016390513
+36645782,"Iulia G Ionescu",2023,41,"G","2*BNT162b2",1472,2804,665,944,33.9,24.1,42.4,"Mild infection",153.5,"2*mRNA","Omicron","Children",-0.414001439130451
+36645782,"Iulia G Ionescu",2023,43,"H","2*BNT162b2",6,25,471,609,69.6,24.2,87.8,"Mild infection",20.5,"2*mRNA","Omicron","Children",-1.19072757757592
+36645782,"Iulia G Ionescu",2023,44,"H","2*BNT162b2",29,99,471,609,58.4,35.3,73.2,"Mild infection",41.5,"2*mRNA","Omicron","Children",-0.877070018720874
+36645782,"Iulia G Ionescu",2023,45,"H","2*BNT162b2",95,201,471,609,40.1,20.7,54.8,"Mild infection",69.5,"2*mRNA","Omicron","Children",-0.512493680866688
+36645782,"Iulia G Ionescu",2023,46,"H","2*BNT162b2",157,313,471,609,34.2,16.9,48,"Mild infection",97.5,"2*mRNA","Omicron","Children",-0.41855034765682
+36645782,"Iulia G Ionescu",2023,47,"H","2*BNT162b2",311,1021,471,609,52.1,42.2,60.4,"Mild infection",125.5,"2*mRNA","Omicron","Children",-0.736054681571222
+36645782,"Iulia G Ionescu",2023,48,"H","2*BNT162b2",1391,2648,471,609,33.4,22.7,42.6,"Mild infection",153.5,"2*mRNA","Omicron","Children",-0.406465608441748
+36645782,"Iulia G Ionescu",2023,50,"I","2*BNT162b2",13,117,527,1121,80.2,64,89.1,"Mild infection",20.5,"2*mRNA","Omicron","Children",-1.6194882482876
+36645782,"Iulia G Ionescu",2023,51,"I","2*BNT162b2",61,230,527,1121,49.2,30.3,63,"Mild infection",41.5,"2*mRNA","Omicron","Children",-0.677273831403655
+36645782,"Iulia G Ionescu",2023,52,"I","2*BNT162b2",82,286,527,1121,41.6,22.8,55.9,"Mild infection",69.5,"2*mRNA","Omicron","Children",-0.53785429615391
+36645782,"Iulia G Ionescu",2023,53,"I","2*BNT162b2",110,363,527,1121,43.8,27.8,56.2,"Mild infection",97.5,"2*mRNA","Omicron","Children",-0.576253429088446
+36645782,"Iulia G Ionescu",2023,54,"I","2*BNT162b2",232,679,527,1121,36.8,23.1,48.1,"Mild infection",125.5,"2*mRNA","Omicron","Children",-0.45886588483528
+36645782,"Iulia G Ionescu",2023,55,"I","2*BNT162b2",641,1797,527,1121,36.1,25.4,45.3,"Mild infection",153.5,"2*mRNA","Omicron","Children",-0.447850824604602
+36645782,"Iulia G Ionescu",2023,57,"J","2*BNT162b2",7,23,194,335,54.4,-16.6,82.1,"Mild infection",41.5,"2*mRNA","Omicron","Children",-0.785262469467751
+36645782,"Iulia G Ionescu",2023,58,"J","2*BNT162b2",13,33,194,335,50.5,-1.6,75.8,"Mild infection",69.5,"2*mRNA","Omicron","Children",-0.703197516413447
+36645782,"Iulia G Ionescu",2023,59,"J","2*BNT162b2",23,58,194,335,54.6,21,74,"Mild infection",97.5,"2*mRNA","Omicron","Children",-0.789658080940789
+36645782,"Iulia G Ionescu",2023,60,"J","2*BNT162b2",53,79,194,335,17.7,-26.2,46.3,"Mild infection",125.5,"2*mRNA","Omicron","Children",-0.194799078305067
+36645782,"Iulia G Ionescu",2023,61,"J","2*BNT162b2",81,156,194,335,39,11.9,57.8,"Mild infection",153.5,"2*mRNA","Omicron","Children",-0.49429632181478
+37877845,"Narmeen Mallah",2023,1,"A","2*BNT162b2",1152,1904,10711,9045,62.7,58.1,66.8,"Mild infection",24,"2*mRNA","Omicron","Children",-0.986176859338322
+37877845,"Narmeen Mallah",2023,2,"A","2*BNT162b2",595,645,10711,9045,48.3,40.5,55,"Mild infection",59,"2*mRNA","Omicron","Children",-0.659712404473708
+37877845,"Narmeen Mallah",2023,3,"A","2*BNT162b2",422,452,10711,9045,45,35.7,53,"Mild infection",76.5,"2*mRNA","Omicron","Children",-0.59783700075562
+37877845,"Narmeen Mallah",2023,4,"A","2*BNT162b2",447,395,10711,9045,47.2,37.9,55.1,"Mild infection",94,"2*mRNA","Omicron","Children",-0.638658995275876
+37877845,"Narmeen Mallah",2023,5,"B","2*BNT162b2",45,6803,3253,14631,91,87.7,93.5,"Mild infection",24,"2*mRNA","Delta","Children",-2.40794560865187
+37877845,"Narmeen Mallah",2023,6,"B","2*BNT162b2",118,4530,3253,14631,83.4,79.8,86.4,"Mild infection",59,"2*mRNA","Delta","Children",-1.79576749062559
+37877845,"Narmeen Mallah",2023,7,"B","2*BNT162b2",234,4031,3253,14631,78.8,74.7,82.3,"Mild infection",76.5,"2*mRNA","Delta","Children",-1.55116900431012
+34525277,"S. J. Thomas",2021,2,"A","2*BNT162b2",12,22120,312,21689,96.2,93.3,98.1,"Mild infection",33,"2*mRNA","Mixture of variants","All",-3.27016911925575
+34525277,"S. J. Thomas",2021,3,"A","2*BNT162b2",46,20768,449,19885,90.1,86.6,92.9,"Mild infection",89.5,"2*mRNA","Mixture of variants","All",-2.31263542884755
+34525277,"S. J. Thomas",2021,4,"A","2*BNT162b2",24,12646,128,11674,83.7,74.7,89.9,"Mild infection",150,"2*mRNA","Mixture of variants","All",-1.81400507817538
+35189624,"H. F. Tseng",2022,1,"A","2*mRNA-1273",21,151,2883,4203,80.2,68.2,87.7,"Mild infection",52,"2*mRNA","Delta","Adults",-1.6194882482876
+35189624,"H. F. Tseng",2022,2,"A","2*mRNA-1273",87,342,2883,4203,68.9,60.1,75.8,"Mild infection",135.5,"2*mRNA","Delta","Adults",-1.1679623668029
+35189624,"H. F. Tseng",2022,5,"B","2*mRNA-1273",245,836,8600,16111,44,35.1,51.6,"Mild infection",52,"2*mRNA","Omicron","Adults",-0.579818495252942
+35189624,"H. F. Tseng",2022,6,"B","2*mRNA-1273",783,1867,8600,16111,23.5,16.4,30,"Mild infection",135.5,"2*mRNA","Omicron","Adults",-0.267879445155601
+35438137,"H. Maeda",2022,1,"A","2*mRNA",7,173,275,442,91.8,80.3,96.6,"Mild infection",74.5,"2*mRNA","Delta","All",-2.50103603171788
+35438137,"H. Maeda",2022,2,"A","2*mRNA",4,52,275,442,86.4,56.9,95.7,"Mild infection",164.5,"2*mRNA","Delta","All",-1.99510039324609
+35249272,"N. Andrews",2022,1,"A","2*ChAdOx1",28,476,36369,107238,82.8,74.5,88.4,"Mild infection",24,"Primary series viral vector","Delta","Adults",-1.76026080216868
+35249272,"N. Andrews",2022,2,"A","2*ChAdOx1",85,894,36369,107238,76.5,70.3,81.5,"Mild infection",52,"Primary series viral vector","Delta","Adults",-1.44816976483798
+35249272,"N. Andrews",2022,3,"A","2*ChAdOx1",274,1659,36369,107238,69.2,64.7,73.1,"Mild infection",87,"Primary series viral vector","Delta","Adults",-1.17765549600856
+35249272,"N. Andrews",2022,4,"A","2*ChAdOx1",4013,10788,36369,107238,53.6,51.6,55.5,"Mild infection",122,"Primary series viral vector","Delta","Adults",-0.767870726755882
+35249272,"N. Andrews",2022,5,"A","2*ChAdOx1",29100,68757,36369,107238,47.4,46.2,48.5,"Mild infection",157,"Primary series viral vector","Delta","Adults",-0.642454066244427
+35249272,"N. Andrews",2022,6,"B","2*ChAdOx1",236,476,101109,107238,48.9,39.2,57.1,"Mild infection",24,"Primary series viral vector","Omicron","Adults",-0.671385688778433
+35249272,"N. Andrews",2022,7,"B","2*ChAdOx1",505,894,101109,107238,33.7,25,41.5,"Mild infection",52,"Primary series viral vector","Omicron","Adults",-0.410980288796275
+35249272,"N. Andrews",2022,8,"B","2*ChAdOx1",767,1659,101109,107238,28.6,20.9,35.6,"Mild infection",87,"Primary series viral vector","Omicron","Adults",-0.336872316642553
+35249272,"N. Andrews",2022,9,"B","2*ChAdOx1",2974,10788,101109,107238,17.8,13.4,21.9,"Mild infection",122,"Primary series viral vector","Omicron","Adults",-0.196014883925957
+35249272,"N. Andrews",2022,10,"B","2*ChAdOx1",23122,68757,101109,107238,4,1.9,6.1,"Mild infection",157,"Primary series viral vector","Omicron","Adults",-0.0408219945202552
+35249272,"N. Andrews",2022,31,"I","2*BNT162b2",240,9516,36369,107238,90.9,89.6,92,"Mild infection",24,"2*mRNA","Delta","Adults",-2.39689577246529
+35249272,"N. Andrews",2022,32,"I","2*BNT162b2",981,20163,36369,107238,85.5,84.5,86.5,"Mild infection",52,"2*mRNA","Delta","Adults",-1.93102153656156
+35249272,"N. Andrews",2022,33,"I","2*BNT162b2",5562,61014,36369,107238,78.7,78,79.4,"Mild infection",87,"2*mRNA","Delta","Adults",-1.54646311327271
+35249272,"N. Andrews",2022,34,"I","2*BNT162b2",17077,144172,36369,107238,74.4,73.8,74.9,"Mild infection",122,"2*mRNA","Delta","Adults",-1.36257783450257
+35249272,"N. Andrews",2022,35,"I","2*BNT162b2",10348,72018,36369,107238,67.4,66.5,68.2,"Mild infection",157,"2*mRNA","Delta","Adults",-1.12085789761543
+35249272,"N. Andrews",2022,36,"I","2*BNT162b2",8531,51625,36369,107238,62.7,61.6,63.7,"Mild infection",175,"2*mRNA","Delta","Adults",-0.986176859338322
+35249272,"N. Andrews",2022,37,"J","2*BNT162b2",3369,9516,101109,107238,65.5,63.9,67,"Mild infection",24,"2*mRNA","Omicron","Adults",-1.06421086195078
+35249272,"N. Andrews",2022,38,"J","2*BNT162b2",8768,20163,101109,107238,48.7,47.1,50.2,"Mild infection",52,"2*mRNA","Omicron","Adults",-0.667479433811368
+35249272,"N. Andrews",2022,39,"J","2*BNT162b2",25178,61014,101109,107238,30.1,28.7,31.5,"Mild infection",87,"2*mRNA","Omicron","Adults",-0.358104536748327
+35249272,"N. Andrews",2022,40,"J","2*BNT162b2",82221,144172,101109,107238,15.4,14.2,16.6,"Mild infection",122,"2*mRNA","Omicron","Adults",-0.167235919375914
+35249272,"N. Andrews",2022,41,"J","2*BNT162b2",55719,72018,101109,107238,11.5,10.1,12.9,"Mild infection",157,"2*mRNA","Omicron","Adults",-0.122167633974208
+35249272,"N. Andrews",2022,42,"J","2*BNT162b2",33983,51625,101109,107238,8.8,7,10.5,"Mild infection",175,"2*mRNA","Omicron","Adults",-0.0921152889078056
+35249272,"N. Andrews",2022,57,"O","2*mRNA-1273",13,855,36369,107238,94.5,90.5,96.9,"Mild infection",24,"2*mRNA","Delta","Adults",-2.90042209374967
+35249272,"N. Andrews",2022,58,"O","2*mRNA-1273",73,2286,36369,107238,91.8,89.6,93.6,"Mild infection",52,"2*mRNA","Delta","Adults",-2.50103603171788
+35249272,"N. Andrews",2022,59,"O","2*mRNA-1273",674,9822,36369,107238,84.1,82.7,85.3,"Mild infection",87,"2*mRNA","Delta","Adults",-1.83885107676191
+35249272,"N. Andrews",2022,60,"O","2*mRNA-1273",1627,20017,36369,107238,82.8,81.8,83.7,"Mild infection",122,"2*mRNA","Delta","Adults",-1.76026080216868
+35249272,"N. Andrews",2022,61,"O","2*mRNA-1273",1224,8961,36369,107238,76.2,74.7,77.7,"Mild infection",157,"2*mRNA","Delta","Adults",-1.43548460531066
+35249272,"N. Andrews",2022,62,"O","2*mRNA-1273",16,474,36369,107238,80.4,67.3,88.2,"Mild infection",175,"2*mRNA","Delta","Adults",-1.62964061975162
+35249272,"N. Andrews",2022,63,"P","2*mRNA-1273",236,855,101109,107238,75.1,70.8,78.7,"Mild infection",24,"2*mRNA","Omicron","Adults",-1.39030238251743
+35249272,"N. Andrews",2022,64,"P","2*mRNA-1273",791,2286,101109,107238,52.8,48.2,57.1,"Mild infection",52,"2*mRNA","Omicron","Adults",-0.750776293396582
+35249272,"N. Andrews",2022,65,"P","2*mRNA-1273",3828,9822,101109,107238,35.6,32.7,38.4,"Mild infection",87,"2*mRNA","Omicron","Adults",-0.440056552877784
+35249272,"N. Andrews",2022,66,"P","2*mRNA-1273",11269,20017,101109,107238,25.3,23.2,27.4,"Mild infection",122,"2*mRNA","Omicron","Adults",-0.29169009384932
+35249272,"N. Andrews",2022,67,"P","2*mRNA-1273",6106,8961,101109,107238,15,11.6,18.2,"Mild infection",157,"2*mRNA","Omicron","Adults",-0.162518929497775
+35249272,"N. Andrews",2022,68,"P","2*mRNA-1273",731,474,101109,107238,14.9,3.9,24.7,"Mild infection",175,"2*mRNA","Omicron","Adults",-0.161343150408763
+35405090,"C. Menni",2022,1,"A","2*ChAdOx1",1682,198419,6701,90157,83.1,82.2,84,"Mild infection",44.5,"Primary series viral vector","Delta","Adults",-1.77785656405906
+35405090,"C. Menni",2022,2,"A","2*ChAdOx1",5759,444233,6701,90157,79.3,78.6,80,"Mild infection",74.5,"Primary series viral vector","Delta","Adults",-1.57503648571677
+35405090,"C. Menni",2022,3,"A","2*ChAdOx1",7952,464711,6701,90157,76.7,76,77.5,"Mild infection",104.5,"Primary series viral vector","Delta","Adults",-1.45671682541644
+35405090,"C. Menni",2022,4,"A","2*ChAdOx1",9669,482535,6701,90157,75.8,75,76.4,"Mild infection",134.5,"Primary series viral vector","Delta","Adults",-1.41881755282545
+35405090,"C. Menni",2022,5,"A","2*ChAdOx1",11067,467213,6701,90157,75.7,74.9,76.4,"Mild infection",164.5,"Primary series viral vector","Delta","Adults",-1.41469383564159
+35405090,"C. Menni",2022,7,"B","2*BNT162b2",407,60066,6701,90157,91.6,90.7,92.4,"Mild infection",44.5,"2*mRNA","Delta","Adults",-2.47693848013882
+35405090,"C. Menni",2022,8,"B","2*BNT162b2",1230,164555,6701,90157,89,88.3,89.7,"Mild infection",74.5,"2*mRNA","Delta","Adults",-2.20727491318972
+35405090,"C. Menni",2022,9,"B","2*BNT162b2",2291,231587,6701,90157,86.8,86.2,87.4,"Mild infection",104.5,"2*mRNA","Delta","Adults",-2.02495335639577
+35405090,"C. Menni",2022,10,"B","2*BNT162b2",3233,236283,6701,90157,83.7,82.9,84.3,"Mild infection",134.5,"2*mRNA","Delta","Adults",-1.81400507817538
+35405090,"C. Menni",2022,11,"B","2*BNT162b2",2973,213924,6701,90157,82.1,81.3,82.9,"Mild infection",164.5,"2*mRNA","Delta","Adults",-1.72036947314138
+35405090,"C. Menni",2022,15,"C","2*mRNA-1273",54,7872,6701,90157,94.1,92.3,95.5,"Mild infection",44.5,"2*mRNA","Delta","Adults",-2.83021783507642
+35405090,"C. Menni",2022,16,"C","2*mRNA-1273",135,13844,6701,90157,91.7,90.2,93,"Mild infection",74.5,"2*mRNA","Delta","Adults",-2.48891467118554
+35405090,"C. Menni",2022,17,"C","2*mRNA-1273",194,13742,6701,90157,89.9,88.4,91.3,"Mild infection",104.5,"2*mRNA","Delta","Adults",-2.29263476214088
+35405090,"C. Menni",2022,18,"C","2*mRNA-1273",236,11067,6701,90157,87.7,86,89.2,"Mild infection",134.5,"2*mRNA","Delta","Adults",-2.09557092360972
+35405090,"C. Menni",2022,19,"C","2*mRNA-1273",121,4727,6701,90157,84.3,81.2,86.9,"Mild infection",164.5,"2*mRNA","Delta","Adults",-1.85150947363383
+35468336,"S. Y. Tartof",2022,1,"A1","2*BNT162b2",57,169,1748,1063,78,55,89,"Severe",48,"2*mRNA","Delta","Adults",-1.51412773262978
+35468336,"S. Y. Tartof",2022,2,"A1","2*BNT162b2",176,304,1748,1063,87,76,93,"Severe",134.5,"2*mRNA","Delta","Adults",-2.04022082852655
+35468336,"S. Y. Tartof",2022,5,"B1","2*BNT162b2",127,169,2354,1063,68,48,80,"Severe",48,"2*mRNA","Omicron","Adults",-1.13943428318837
+35468336,"S. Y. Tartof",2022,6,"B1","2*BNT162b2",319,304,2354,1063,68,53,78,"Severe",134.5,"2*mRNA","Omicron","Adults",-1.13943428318837
+36413551,"K. F. Nielsen",2022,4,"B","2*mRNA",26,12249.4,1373,33375.63,94,92,96,"Mild infection",28.5,"2*mRNA","Delta","Adults",-2.81341071676004
+36413551,"K. F. Nielsen",2022,5,"B","2*mRNA",30,12887.7,1373,33375.63,93,90,95,"Mild infection",58.5,"2*mRNA","Delta","Adults",-2.65926003693278
+36413551,"K. F. Nielsen",2022,6,"B","2*mRNA",65,11693.72,1373,33375.63,90,87,92,"Mild infection",88.5,"2*mRNA","Delta","Adults",-2.30258509299405
+36413551,"K. F. Nielsen",2022,7,"B","2*mRNA",64,7399.62,1373,33375.63,85,80,88,"Mild infection",118.5,"2*mRNA","Delta","Adults",-1.89711998488588
+36413551,"K. F. Nielsen",2022,8,"B","2*mRNA",43,3712.3,1373,33375.63,74,63,82,"Mild infection",148.5,"2*mRNA","Delta","Adults",-1.34707364796661
+36413551,"K. F. Nielsen",2022,9,"B","2*mRNA",23,2231.93,1373,33375.63,80,68,88,"Mild infection",178.5,"2*mRNA","Delta","Adults",-1.6094379124341
+36413551,"K. F. Nielsen",2022,14,"C","2*mRNA",2033,1690.69,24002,7712.27,60,58,62,"Mild infection",28.5,"2*mRNA","Omicron","Adults",-0.916290731874155
+36413551,"K. F. Nielsen",2022,15,"C","2*mRNA",1271,746.05,24002,7712.27,50,47,53,"Mild infection",58.5,"2*mRNA","Omicron","Adults",-0.693147180559945
+36413551,"K. F. Nielsen",2022,16,"C","2*mRNA",1061,702.72,24002,7712.27,43,39,46,"Mild infection",88.5,"2*mRNA","Omicron","Adults",-0.562118918153541
+36413551,"K. F. Nielsen",2022,17,"C","2*mRNA",3014,1954.08,24002,7712.27,34,32,37,"Mild infection",118.5,"2*mRNA","Omicron","Adults",-0.415515443961666
+36413551,"K. F. Nielsen",2022,18,"C","2*mRNA",6737,3271.95,24002,7712.27,20,17,22,"Mild infection",148.5,"2*mRNA","Omicron","Adults",-0.22314355131421
+36413551,"K. F. Nielsen",2022,19,"C","2*mRNA",3195,1189.79,24002,7712.27,14,10,17,"Mild infection",178.5,"2*mRNA","Omicron","Adults",-0.150822889734584
+34953607,"E. Poukka",2022,1,"A","2*Adenovirus vector",5,37,3874,2066,89,73,95,"Mild infection",52,"Primary series viral vector","Mixture of variants","All",-2.20727491318972
+34953607,"E. Poukka",2022,2,"A","2*Adenovirus vector",5,38,3874,2066,63,-166,95,"Mild infection",135.5,"Primary series viral vector","Mixture of variants","All",-0.994252273343867
+34953607,"E. Poukka",2022,3,"B","2*mRNA",162,326,3874,2066,82,79,85,"Mild infection",52,"2*mRNA","Mixture of variants","All",-1.71479842809193
+34953607,"E. Poukka",2022,4,"B","2*mRNA",168,377,3874,2066,62,55,68,"Mild infection",135.5,"2*mRNA","Mixture of variants","All",-0.967584026261706
+34953607,"E. Poukka",2022,6,"C","1*Adenovirus vector+1*mRNA",38,144,3874,2066,80,72,86,"Mild infection",52,"Heterologous primary series","Mixture of variants","All",-1.6094379124341
+34953607,"E. Poukka",2022,7,"C","1*Adenovirus vector+1*mRNA",11,180,3874,2066,62,30,79,"Mild infection",135.5,"Heterologous primary series","Mixture of variants","All",-0.967584026261706
+34953607,"E. Poukka",2022,8,"B1","2*mRNA",5,2,220,198,99,97,100,"Severe",52,"2*mRNA","Mixture of variants","All",-4.60517018598809
+34953607,"E. Poukka",2022,9,"B1","2*mRNA",5,3,220,198,98,91,99,"Severe",135.5,"2*mRNA","Mixture of variants","All",-3.91202300542815
+35858698,"E. M. F. Horne",2022,1,"A","2*BNT162b2(>=65y)",105,63663,133,10930,81,73,87,"Mild infection",34.5,"2*mRNA","Mixture of variants","Elderly",-1.66073120682165
+35858698,"E. M. F. Horne",2022,2,"A","2*BNT162b2(>=65y)",322,63727,231,10181,65,56,72,"Mild infection",62.5,"2*mRNA","Mixture of variants","Elderly",-1.04982212449868
+35858698,"E. M. F. Horne",2022,3,"A","2*BNT162b2(>=65y)",1078,63545,420,9603,59,53,65,"Mild infection",90.5,"2*mRNA","Mixture of variants","Elderly",-0.891598119283784
+35858698,"E. M. F. Horne",2022,4,"A","2*BNT162b2(>=65y)",2275,63277,581,9318,44,36,50,"Mild infection",118.5,"2*mRNA","Mixture of variants","Elderly",-0.579818495252942
+35858698,"E. M. F. Horne",2022,5,"A","2*BNT162b2(>=65y)",3073,62920,574,8974,34,26,42,"Mild infection",146.5,"2*mRNA","Mixture of variants","Elderly",-0.415515443961666
+35858698,"E. M. F. Horne",2022,6,"A","2*BNT162b2(>=65y)",4123,62468,609,8810,13,3,22,"Mild infection",174.5,"2*mRNA","Mixture of variants","Elderly",-0.139262067333508
+35858698,"E. M. F. Horne",2022,7,"B","2*ChAdOx1(>=65y)",252,84070,133,10930,57,42,68,"Mild infection",34.5,"Primary series viral vector","Mixture of variants","Elderly",-0.843970070294529
+35858698,"E. M. F. Horne",2022,8,"B","2*ChAdOx1(>=65y)",1197,83891,231,10181,30,16,41,"Mild infection",62.5,"Primary series viral vector","Mixture of variants","Elderly",-0.356674943938732
+35858698,"E. M. F. Horne",2022,9,"B","2*ChAdOx1(>=65y)",3374,83573,420,9603,30,20,38,"Mild infection",90.5,"Primary series viral vector","Mixture of variants","Elderly",-0.356674943938732
+35858698,"E. M. F. Horne",2022,10,"B","2*ChAdOx1(>=65y)",5411,83082,581,9318,18,9,27,"Mild infection",118.5,"Primary series viral vector","Mixture of variants","Elderly",-0.198450938723838
+35858698,"E. M. F. Horne",2022,11,"B","2*ChAdOx1(>=65y)",6433,82462,574,8974,0,-11,10,"Mild infection",146.5,"Primary series viral vector","Mixture of variants","Elderly",0
+35858698,"E. M. F. Horne",2022,12,"B","2*ChAdOx1(>=65y)",8799,81683,609,8810,-23,-36,-11,"Mild infection",174.5,"Primary series viral vector","Mixture of variants","Elderly",0.207014169384326
+35858698,"E. M. F. Horne",2022,13,"A1","2*BNT162b2(>=65y)",28,63672,77,10935,92,87,95,"Severe",34.5,"2*mRNA","Mixture of variants","Elderly",-2.52572864430826
+35858698,"E. M. F. Horne",2022,14,"A1","2*BNT162b2(>=65y)",35,63747,112,10191,93,89,96,"Severe",62.5,"2*mRNA","Mixture of variants","Elderly",-2.65926003693278
+35858698,"E. M. F. Horne",2022,15,"A1","2*BNT162b2(>=65y)",119,63610,196,9625,91,88,93,"Severe",90.5,"2*mRNA","Mixture of variants","Elderly",-2.40794560865187
+35858698,"E. M. F. Horne",2022,16,"A1","2*BNT162b2(>=65y)",301,63449,315,9358,87,84,90,"Severe",118.5,"2*mRNA","Mixture of variants","Elderly",-2.04022082852655
+35858698,"E. M. F. Horne",2022,17,"A1","2*BNT162b2(>=65y)",413,63274,322,9028,85,81,88,"Severe",146.5,"2*mRNA","Mixture of variants","Elderly",-1.89711998488588
+35858698,"E. M. F. Horne",2022,18,"A1","2*BNT162b2(>=65y)",574,63047,336,8884,80,75,83,"Severe",174.5,"2*mRNA","Mixture of variants","Elderly",-1.6094379124341
+35858698,"E. M. F. Horne",2022,19,"B1","2*ChAdOx1(>=65y)",42,84088,77,10935,87,77,92,"Severe",34.5,"Primary series viral vector","Mixture of variants","Elderly",-2.04022082852655
+35858698,"E. M. F. Horne",2022,20,"B1","2*ChAdOx1(>=65y)",91,83948,112,10191,89,85,93,"Severe",62.5,"Primary series viral vector","Mixture of variants","Elderly",-2.20727491318972
+35858698,"E. M. F. Horne",2022,21,"B1","2*ChAdOx1(>=65y)",336,83784,196,9625,91,89,93,"Severe",90.5,"Primary series viral vector","Mixture of variants","Elderly",-2.40794560865187
+35858698,"E. M. F. Horne",2022,22,"B1","2*ChAdOx1(>=65y)",595,83591,315,9358,82,78,85,"Severe",118.5,"Primary series viral vector","Mixture of variants","Elderly",-1.71479842809193
+35858698,"E. M. F. Horne",2022,23,"B1","2*ChAdOx1(>=65y)",756,83382,322,9028,79,74,82,"Severe",146.5,"Primary series viral vector","Mixture of variants","Elderly",-1.56064774826467
+35858698,"E. M. F. Horne",2022,24,"B1","2*ChAdOx1(>=65y)",833,83089,336,8884,75,71,79,"Severe",174.5,"Primary series viral vector","Mixture of variants","Elderly",-1.38629436111989
+35858698,"E. M. F. Horne",2022,25,"A2","2*BNT162b2(>=65y)",7,63675,28,10943,98,93,99,"Death",34.5,"2*mRNA","Mixture of variants","Elderly",-3.91202300542815
+35858698,"E. M. F. Horne",2022,26,"A2","2*BNT162b2(>=65y)",42,63471,63,9391,93,87,96,"Death",118.5,"2*mRNA","Mixture of variants","Elderly",-2.65926003693278
+35858698,"E. M. F. Horne",2022,27,"A2","2*BNT162b2(>=65y)",98,63318,98,9078,90,85,93,"Death",146.5,"2*mRNA","Mixture of variants","Elderly",-2.30258509299405
+35858698,"E. M. F. Horne",2022,28,"A2","2*BNT162b2(>=65y)",112,63120,98,8950,88,83,92,"Death",174.5,"2*mRNA","Mixture of variants","Elderly",-2.12026353620009
+35858698,"E. M. F. Horne",2022,29,"B2","2*ChAdOx1(>=65y)",7,83955,28,10201,96,91,98,"Death",62.5,"Primary series viral vector","Mixture of variants","Elderly",-3.2188758248682
+35858698,"E. M. F. Horne",2022,30,"B2","2*ChAdOx1(>=65y)",84,83642,63,9391,89,82,93,"Death",118.5,"Primary series viral vector","Mixture of variants","Elderly",-2.20727491318972
+35858698,"E. M. F. Horne",2022,31,"B2","2*ChAdOx1(>=65y)",133,83479,98,9078,89,84,92,"Death",146.5,"Primary series viral vector","Mixture of variants","Elderly",-2.20727491318972
+35858698,"E. M. F. Horne",2022,32,"B2","2*ChAdOx1(>=65y)",126,83232,98,8950,85,79,89,"Death",174.5,"Primary series viral vector","Mixture of variants","Elderly",-1.89711998488588
+35858698,"E. M. F. Horne",2022,27,"C","2*BNT162b2(40-64y)",98,63318,98,9078,73,69,80,"Mild infection",34.5,"2*mRNA","Mixture of variants","Adults",-1.30933331998376
+35858698,"E. M. F. Horne",2022,28,"C","2*BNT162b2(40-64y)",112,63120,98,8950,55,49,59,"Mild infection",62.5,"2*mRNA","Mixture of variants","Adults",-0.798507696217772
+35858698,"E. M. F. Horne",2022,29,"C","2*BNT162b2(40-64y)",7,83955,28,10201,25,18,32,"Mild infection",90.5,"2*mRNA","Mixture of variants","Adults",-0.287682072451781
+35858698,"E. M. F. Horne",2022,30,"C","2*BNT162b2(40-64y)",84,83642,63,9391,5,-2,12,"Mild infection",118.5,"2*mRNA","Mixture of variants","Adults",-0.0512932943875506
+35858698,"E. M. F. Horne",2022,31,"C","2*BNT162b2(40-64y)",133,83479,98,9078,-21,-29,-13,"Mild infection",146.5,"2*mRNA","Mixture of variants","Adults",0.19062035960865
+35858698,"E. M. F. Horne",2022,32,"C","2*BNT162b2(40-64y)",126,83232,98,8950,-1,-14,10,"Mild infection",174.5,"2*mRNA","Mixture of variants","Adults",0.00995033085316809
+35858698,"E. M. F. Horne",2022,33,"D","2*ChAdOx1(40-64y)",8890,112412,5880,47310,22,19,25,"Mild infection",34.5,"Primary series viral vector","Mixture of variants","Adults",-0.2484613592985
+35858698,"E. M. F. Horne",2022,34,"D","2*ChAdOx1(40-64y)",13405,111385,5894,44260,7,3,10,"Mild infection",62.5,"Primary series viral vector","Mixture of variants","Adults",-0.0725706928348355
+35858698,"E. M. F. Horne",2022,35,"D","2*ChAdOx1(40-64y)",17402,110123,5670,42524,-25,-30,-20,"Mild infection",90.5,"Primary series viral vector","Mixture of variants","Adults",0.22314355131421
+35858698,"E. M. F. Horne",2022,36,"D","2*ChAdOx1(40-64y)",20356,108520,5747,40920,-54,-60,-49,"Mild infection",118.5,"Primary series viral vector","Mixture of variants","Adults",0.431782416425538
+35858698,"E. M. F. Horne",2022,37,"D","2*ChAdOx1(40-64y)",28231,106037,5845,37144,-75,-81,-69,"Mild infection",146.5,"Primary series viral vector","Mixture of variants","Adults",0.559615787935423
+35858698,"E. M. F. Horne",2022,38,"D","2*ChAdOx1(40-64y)",27006,88990,4228,24279,-86,-93,-79,"Mild infection",174.5,"Primary series viral vector","Mixture of variants","Adults",0.62057648772511
+35858698,"E. M. F. Horne",2022,39,"D1","2*ChAdOx1(40-64y)",63,112968,532,47788,95,93,96,"Severe",34.5,"Primary series viral vector","Mixture of variants","Adults",-2.99573227355399
+35858698,"E. M. F. Horne",2022,40,"D1","2*ChAdOx1(40-64y)",112,112827,588,45100,95,93,96,"Severe",62.5,"Primary series viral vector","Mixture of variants","Adults",-2.99573227355399
+35858698,"E. M. F. Horne",2022,41,"D1","2*ChAdOx1(40-64y)",119,112690,560,43740,95,93,96,"Severe",90.5,"Primary series viral vector","Mixture of variants","Adults",-2.99573227355399
+35858698,"E. M. F. Horne",2022,42,"D1","2*ChAdOx1(40-64y)",175,112546,504,42456,91,88,93,"Severe",118.5,"Primary series viral vector","Mixture of variants","Adults",-2.40794560865187
+35858698,"E. M. F. Horne",2022,43,"D1","2*ChAdOx1(40-64y)",210,111778,504,38859,89,86,91,"Severe",146.5,"Primary series viral vector","Mixture of variants","Adults",-2.20727491318972
+35858698,"E. M. F. Horne",2022,44,"D1","2*ChAdOx1(40-64y)",259,94855,378,25431,88,85,90,"Severe",174.5,"Primary series viral vector","Mixture of variants","Adults",-2.12026353620009
+35858698,"E. M. F. Horne",2022,45,"D2","2*ChAdOx1(40-64y)",7,112710,35,43857,98,93,99,"Death",90.5,"Primary series viral vector","Mixture of variants","Adults",-3.91202300542815
+35858698,"E. M. F. Horne",2022,46,"D2","2*ChAdOx1(40-64y)",7,112576,28,42603,96,91,99,"Death",118.5,"Primary series viral vector","Mixture of variants","Adults",-3.2188758248682
+35858698,"E. M. F. Horne",2022,47,"D2","2*ChAdOx1(40-64y)",14,111822,42,39023,95,90,97,"Death",146.5,"Primary series viral vector","Mixture of variants","Adults",-2.99573227355399
+35858698,"E. M. F. Horne",2022,48,"D2","2*ChAdOx1(40-64y)",21,94906,28,25559,90,78,96,"Death",174.5,"Primary series viral vector","Mixture of variants","Adults",-2.30258509299405
+35858698,"E. M. F. Horne",2022,49,"E","2*BNT162b2(18-39y)",2688,52260,16331,100695,76,74,77,"Mild infection",28.5,"2*mRNA","Mixture of variants","Adults",-1.42711635564015
+35858698,"E. M. F. Horne",2022,50,"E","2*BNT162b2(18-39y)",4053,51679,13783,94796,59,57,60,"Mild infection",56.5,"2*mRNA","Mixture of variants","Adults",-0.891598119283784
+35858698,"E. M. F. Horne",2022,51,"E","2*BNT162b2(18-39y)",7217,50995,16142,89674,42,40,44,"Mild infection",84.5,"2*mRNA","Mixture of variants","Adults",-0.544727175441672
+35858698,"E. M. F. Horne",2022,52,"E","2*BNT162b2(18-39y)",11669,40081,13475,63383,4,1,7,"Mild infection",112.5,"2*mRNA","Mixture of variants","Adults",-0.0408219945202552
+35858698,"E. M. F. Horne",2022,53,"E","2*BNT162b2(18-39y)",6188,12089,5075,20555,-42,-49,-36,"Mild infection",140.5,"2*mRNA","Mixture of variants","Adults",0.350656871613169
+35858698,"E. M. F. Horne",2022,54,"E","2*BNT162b2(18-39y)",35,45,154,517,-72,-168,-11,"Mild infection",168.5,"2*mRNA","Mixture of variants","Adults",0.542324290825362
+35858698,"E. M. F. Horne",2022,55,"E1","2*BNT162b2(18-39y)",21,52714,749,103074,96,93,98,"Severe",28.5,"2*mRNA","Mixture of variants","Adults",-3.2188758248682
+35858698,"E. M. F. Horne",2022,56,"E1","2*BNT162b2(18-39y)",28,52381,553,98086,91,86,94,"Severe",56.5,"2*mRNA","Mixture of variants","Adults",-2.40794560865187
+35858698,"E. M. F. Horne",2022,57,"E1","2*BNT162b2(18-39y)",42,52103,539,93860,89,84,92,"Severe",84.5,"2*mRNA","Mixture of variants","Adults",-2.20727491318972
+35858698,"E. M. F. Horne",2022,58,"E1","2*BNT162b2(18-39y)",35,41531,413,66955,90,85,93,"Severe",112.5,"2*mRNA","Mixture of variants","Adults",-2.30258509299405
+35858698,"E. M. F. Horne",2022,59,"E1","2*BNT162b2(18-39y)",21,12835,147,21915,82,71,90,"Severe",140.5,"2*mRNA","Mixture of variants","Adults",-1.71479842809193
+36048766,"M. A. Gram",2022,1,"A","2*mRNA(>=60y)",78,16797,4462,111191,90.7,88.2,92.7,"Mild infection",22,"2*mRNA","Alpha","Elderly",-2.37515578582888
+36048766,"M. A. Gram",2022,2,"A","2*mRNA(>=60y)",144,16190,4462,111191,83.2,79.7,86.1,"Mild infection",45.5,"2*mRNA","Alpha","Elderly",-1.78379129957888
+36048766,"M. A. Gram",2022,3,"A","2*mRNA(>=60y)",119,7274,4462,111191,73,66.8,78.1,"Mild infection",75.5,"2*mRNA","Alpha","Elderly",-1.30933331998376
+36048766,"M. A. Gram",2022,4,"A","2*mRNA(>=60y)",49,3467,4462,111191,82.6,76.5,87.2,"Mild infection",105.5,"2*mRNA","Alpha","Elderly",-1.74869997976761
+36048766,"M. A. Gram",2022,5,"A","2*mRNA(>=60y)",23,1445,4462,111191,73.2,57.1,83.3,"Mild infection",121,"2*mRNA","Alpha","Elderly",-1.31676829847128
+36048766,"M. A. Gram",2022,6,"B","2*mRNA(12-59y)",1624,74050,43581,143400,92.2,91.8,92.6,"Mild infection",22,"2*mRNA","Delta","All",-2.55104645229255
+36048766,"M. A. Gram",2022,7,"B","2*mRNA(12-59y)",3718,129640,43581,143400,88.1,87.7,88.5,"Mild infection",45.5,"2*mRNA","Delta","All",-2.12863178587061
+36048766,"M. A. Gram",2022,8,"B","2*mRNA(12-59y)",7873,123574,43581,143400,80.8,80.2,81.2,"Mild infection",75.5,"2*mRNA","Delta","All",-1.65025990695436
+36048766,"M. A. Gram",2022,9,"B","2*mRNA(12-59y)",14950,85887,43581,143400,72.2,71.5,72.8,"Mild infection",105.5,"2*mRNA","Delta","All",-1.2801341652915
+36048766,"M. A. Gram",2022,10,"B","2*mRNA(12-59y)",10360,59184,43581,143400,64.8,63.9,65.8,"Mild infection",121,"2*mRNA","Delta","All",-1.04412410338404
+36048766,"M. A. Gram",2022,11,"C","2*mRNA(>=60y)",59,6996,1113,6895,82.3,75.5,87.2,"Mild infection",22,"2*mRNA","Delta","Elderly",-1.73160554640831
+36048766,"M. A. Gram",2022,12,"C","2*mRNA(>=60y)",393,21964,1113,6895,74.4,70.1,78.2,"Mild infection",45.5,"2*mRNA","Delta","Elderly",-1.36257783450257
+36048766,"M. A. Gram",2022,13,"C","2*mRNA(>=60y)",687,34207,1113,6895,77.3,74.4,79.9,"Mild infection",75.5,"2*mRNA","Delta","Elderly",-1.48280526150073
+36048766,"M. A. Gram",2022,14,"C","2*mRNA(>=60y)",1159,38465,1113,6895,69.6,66.5,72.4,"Mild infection",105.5,"2*mRNA","Delta","Elderly",-1.19072757757592
+36048766,"M. A. Gram",2022,15,"C","2*mRNA(>=60y)",12198,92247,1113,6895,50,46.7,53,"Mild infection",121,"2*mRNA","Delta","Elderly",-0.693147180559945
+36048766,"M. A. Gram",2022,16,"D","2*mRNA(12-59y)",8252,2147,96160,15470,40,38.6,41.3,"Mild infection",22,"2*mRNA","Omicron","All",-0.510825623765991
+36048766,"M. A. Gram",2022,17,"D","2*mRNA(12-59y)",16502,3019,96160,15470,31.9,30.7,33,"Mild infection",45.5,"2*mRNA","Omicron","All",-0.384192972832625
+36048766,"M. A. Gram",2022,18,"D","2*mRNA(12-59y)",9759,2158,96160,15470,32.3,30.9,33.7,"Mild infection",75.5,"2*mRNA","Omicron","All",-0.390084006069862
+36048766,"M. A. Gram",2022,19,"D","2*mRNA(12-59y)",22911,7017,96160,15470,31.3,30.3,32.4,"Mild infection",105.5,"2*mRNA","Omicron","All",-0.375420986759788
+36048766,"M. A. Gram",2022,20,"D","2*mRNA(12-59y)",276075,56890,96160,15470,12.6,12,13.3,"Mild infection",121,"2*mRNA","Omicron","All",-0.134674903326602
+36048766,"M. A. Gram",2022,21,"E","2*mRNA(>=60y)",96,48,3351,1051,39.9,26.3,50.9,"Mild infection",22,"2*mRNA","Omicron","Elderly",-0.509160344446929
+36048766,"M. A. Gram",2022,22,"E","2*mRNA(>=60y)",136,61,3351,1051,39,27.6,48.7,"Mild infection",45.5,"2*mRNA","Omicron","Elderly",-0.49429632181478
+36048766,"M. A. Gram",2022,23,"E","2*mRNA(>=60y)",103,43,3351,1051,25.2,9,38.6,"Mild infection",75.5,"2*mRNA","Omicron","Elderly",-0.29035230100766
+36048766,"M. A. Gram",2022,24,"E","2*mRNA(>=60y)",173,77,3351,1051,24,11.4,34.8,"Mild infection",105.5,"2*mRNA","Omicron","Elderly",-0.27443684570176
+36048766,"M. A. Gram",2022,25,"E","2*mRNA(>=60y)",4722,1781,3351,1051,4.4,-0.1,8.7,"Mild infection",121,"2*mRNA","Omicron","Elderly",-0.0449973659307358
+36048766,"M. A. Gram",2022,42,"A1","2*mRNA(>=60y)",4,16797,615,111191,98.1,94.7,99.3,"Severe",22,"2*mRNA","Alpha","Elderly",-3.9633162998157
+36048766,"M. A. Gram",2022,43,"A1","2*mRNA(>=60y)",15,16190,615,111191,94,89.6,96.6,"Severe",45.5,"2*mRNA","Alpha","Elderly",-2.81341071676004
+36048766,"M. A. Gram",2022,44,"A1","2*mRNA(>=60y)",19,7274,615,111191,86.5,77.4,91.9,"Severe",75.5,"2*mRNA","Alpha","Elderly",-2.00248050054371
+36048766,"M. A. Gram",2022,45,"A1","2*mRNA(>=60y)",5,3467,615,111191,94,84.9,97.6,"Severe",105.5,"2*mRNA","Alpha","Elderly",-2.81341071676004
+36048766,"M. A. Gram",2022,46,"A1","2*mRNA(>=60y)",1,1445,615,111191,96.5,73.4,99.5,"Severe",121,"2*mRNA","Alpha","Elderly",-3.35240721749272
+36048766,"M. A. Gram",2022,47,"B1","2*mRNA(12-59y)",3,74050,724,143400,99.5,98.4,99.8,"Severe",22,"2*mRNA","Delta","All",-5.29831736654804
+36048766,"M. A. Gram",2022,48,"B1","2*mRNA(12-59y)",7,129640,724,143400,99.4,98.7,99.7,"Severe",45.5,"2*mRNA","Delta","All",-5.1159958097541
+36048766,"M. A. Gram",2022,49,"B1","2*mRNA(12-59y)",7,123574,724,143400,99.2,98.4,99.6,"Severe",75.5,"2*mRNA","Delta","All",-4.8283137373023
+36048766,"M. A. Gram",2022,50,"B1","2*mRNA(12-59y)",25,85887,724,143400,97.9,96.9,98.6,"Severe",105.5,"2*mRNA","Delta","All",-3.86323284125872
+36048766,"M. A. Gram",2022,51,"B1","2*mRNA(12-59y)",77,59184,724,143400,93.5,91.6,95,"Severe",121,"2*mRNA","Delta","All",-2.7333680090865
+36048766,"M. A. Gram",2022,52,"C1","2*mRNA(>=60y)",0,6996,276,6895,99.5,99.5,99.5,"Severe",22,"2*mRNA","Delta","Elderly",-5.29831736654804
+36048766,"M. A. Gram",2022,53,"C1","2*mRNA(>=60y)",8,21964,276,6895,97,94.3,98.3,"Severe",45.5,"2*mRNA","Delta","Elderly",-3.50655789731998
+36048766,"M. A. Gram",2022,54,"C1","2*mRNA(>=60y)",18,34207,276,6895,97.2,95.8,98.1,"Severe",75.5,"2*mRNA","Delta","Elderly",-3.57555076880693
+36048766,"M. A. Gram",2022,55,"C1","2*mRNA(>=60y)",32,38465,276,6895,96.7,95.4,97.6,"Severe",105.5,"2*mRNA","Delta","Elderly",-3.41124771751566
+36048766,"M. A. Gram",2022,56,"C1","2*mRNA(>=60y)",738,92247,276,6895,87,85.1,88.7,"Severe",121,"2*mRNA","Delta","Elderly",-2.04022082852655
+36048766,"M. A. Gram",2022,57,"D1","2*mRNA(12-59y)",1,2147,263,15470,96.2,72.9,99.5,"Severe",22,"2*mRNA","Omicron","All",-3.27016911925575
+36048766,"M. A. Gram",2022,58,"D1","2*mRNA(12-59y)",8,3019,263,15470,79,57.5,89.6,"Severe",45.5,"2*mRNA","Omicron","All",-1.56064774826467
+36048766,"M. A. Gram",2022,59,"D1","2*mRNA(12-59y)",8,2158,263,15470,70.5,40.3,85.5,"Severe",75.5,"2*mRNA","Omicron","All",-1.22077992264232
+36048766,"M. A. Gram",2022,60,"D1","2*mRNA(12-59y)",11,7017,263,15470,85.8,73.8,92.3,"Severe",105.5,"2*mRNA","Omicron","All",-1.95192822138088
+36048766,"M. A. Gram",2022,61,"D1","2*mRNA(12-59y)",168,56890,263,15470,77.6,72.6,81.6,"Severe",121,"2*mRNA","Omicron","All",-1.4961092271271
+36103455,"S. Collie",2022,1,"A","2*BNT162b2",11,191,1931,5896,80.3,62.8,89.5,"Severe",20.5,"2*mRNA","Omicron","Adults",-1.62455155024415
+36103455,"S. Collie",2022,2,"A","2*BNT162b2",237,1886,1931,5896,61.3,54.7,66.9,"Severe",59.5,"2*mRNA","Omicron","Adults",-0.949330585952355
+36103455,"S. Collie",2022,3,"A","2*BNT162b2",758,5106,1931,5896,56.3,51.6,60.5,"Severe",119.5,"2*mRNA","Omicron","Adults",-0.827822083886547
+36103455,"S. Collie",2022,4,"A","2*BNT162b2",771,4503,1931,5896,45.6,39.3,51.3,"Severe",179.5,"2*mRNA","Omicron","Adults",-0.608806032126194
+36103455,"S. Collie",2022,6,"B","2*BNT162b2",28,146,1931,5896,47.4,19.9,65.5,"Severe",119.5,"2*mRNA","Omicron","Adults",-0.642454066244427
+36103455,"S. Collie",2022,7,"B","2*BNT162b2",112,429,1931,5896,26.3,7.1,41.6,"Severe",179.5,"2*mRNA","Omicron","Adults",-0.3051673867928
+35438175,"D. M. Skowronski",2022,351,"A","2*mRNA",420,23622,24790,77553,94,93,94,"Mild infection",20.5,"2*mRNA","Delta","Adults",-2.81341071676004
+35438175,"D. M. Skowronski",2022,352,"A","2*mRNA",1715,59787,24790,77553,92,92,93,"Mild infection",41.5,"2*mRNA","Delta","Adults",-2.52572864430826
+35438175,"D. M. Skowronski",2022,353,"A","2*mRNA",2865,76792,24790,77553,91,91,91,"Mild infection",69.5,"2*mRNA","Delta","Adults",-2.40794560865187
+35438175,"D. M. Skowronski",2022,354,"A","2*mRNA",3437,77978,24790,77553,89,88,89,"Mild infection",97.5,"2*mRNA","Delta","Adults",-2.20727491318972
+35438175,"D. M. Skowronski",2022,355,"A","2*mRNA",3144,59908,24790,77553,85,85,86,"Mild infection",125.5,"2*mRNA","Delta","Adults",-1.89711998488588
+35438175,"D. M. Skowronski",2022,356,"A","2*mRNA",1433,25367,24790,77553,83,82,84,"Mild infection",153.5,"2*mRNA","Delta","Adults",-1.77195684193187
+35438175,"D. M. Skowronski",2022,361,"B","2*mRNA",275,54695,12691,148143,93,92,93,"Mild infection",20.5,"2*mRNA","Delta","Adults",-2.65926003693278
+35438175,"D. M. Skowronski",2022,362,"B","2*mRNA",1218,128863,12691,148143,91,91,92,"Mild infection",41.5,"2*mRNA","Delta","Adults",-2.40794560865187
+35438175,"D. M. Skowronski",2022,363,"B","2*mRNA",2436,156041,12691,148143,90,89,90,"Mild infection",69.5,"2*mRNA","Delta","Adults",-2.30258509299405
+35438175,"D. M. Skowronski",2022,364,"B","2*mRNA",2958,161501,12691,148143,87,86,87,"Mild infection",97.5,"2*mRNA","Delta","Adults",-2.04022082852655
+35438175,"D. M. Skowronski",2022,365,"B","2*mRNA",3090,134272,12691,148143,83,82,84,"Mild infection",125.5,"2*mRNA","Delta","Adults",-1.77195684193187
+35438175,"D. M. Skowronski",2022,366,"B","2*mRNA",1571,63484,12691,148143,82,81,83,"Mild infection",153.5,"2*mRNA","Delta","Adults",-1.71479842809193
+35438175,"D. M. Skowronski",2022,371,"A0","2*mRNA",10,23622,2402,77553,98,96,99,"Severe",20.5,"2*mRNA","Delta","Adults",-3.91202300542815
+35438175,"D. M. Skowronski",2022,372,"A0","2*mRNA",38,59787,2402,77553,98,97,99,"Severe",41.5,"2*mRNA","Delta","Adults",-3.91202300542815
+35438175,"D. M. Skowronski",2022,373,"A0","2*mRNA",82,76792,2402,77553,98,97,98,"Severe",69.5,"2*mRNA","Delta","Adults",-3.91202300542815
+35438175,"D. M. Skowronski",2022,374,"A0","2*mRNA",111,77978,2402,77553,98,97,98,"Severe",97.5,"2*mRNA","Delta","Adults",-3.91202300542815
+35438175,"D. M. Skowronski",2022,375,"A0","2*mRNA",105,59908,2402,77553,98,97,98,"Severe",125.5,"2*mRNA","Delta","Adults",-3.91202300542815
+35438175,"D. M. Skowronski",2022,376,"A0","2*mRNA",78,25367,2402,77553,96,95,97,"Severe",153.5,"2*mRNA","Delta","Adults",-3.2188758248682
+35438175,"D. M. Skowronski",2022,379,"B0","2*mRNA",11,29345,869,88449,95,91,97,"Severe",20.5,"2*mRNA","Delta","Adults",-2.99573227355399
+35438175,"D. M. Skowronski",2022,380,"B0","2*mRNA",25,102353,869,88449,98,97,98,"Severe",41.5,"2*mRNA","Delta","Adults",-3.91202300542815
+35438175,"D. M. Skowronski",2022,381,"B0","2*mRNA",46,149008,869,88449,98,98,99,"Severe",69.5,"2*mRNA","Delta","Adults",-3.91202300542815
+35438175,"D. M. Skowronski",2022,382,"B0","2*mRNA",83,159700,869,88449,97,96,98,"Severe",97.5,"2*mRNA","Delta","Adults",-3.50655789731998
+35438175,"D. M. Skowronski",2022,383,"B0","2*mRNA",77,133931,869,88449,96,95,97,"Severe",125.5,"2*mRNA","Delta","Adults",-3.2188758248682
+35438175,"D. M. Skowronski",2022,384,"B0","2*mRNA",42,63346,869,88449,96,94,97,"Severe",153.5,"2*mRNA","Delta","Adults",-3.2188758248682
+35438175,"D. M. Skowronski",2022,387,"C","2*CHAdOx1",8,428,24790,77553,70,39,86,"Mild infection",20.5,"Primary series viral vector","Delta","Adults",-1.20397280432594
+35438175,"D. M. Skowronski",2022,388,"C","2*CHAdOx1",77,1178,24790,77553,75,68,80,"Mild infection",41.5,"Primary series viral vector","Delta","Adults",-1.38629436111989
+35438175,"D. M. Skowronski",2022,389,"C","2*CHAdOx1",245,2281,24790,77553,76,72,79,"Mild infection",69.5,"Primary series viral vector","Delta","Adults",-1.42711635564015
+35438175,"D. M. Skowronski",2022,390,"C","2*CHAdOx1",334,3019,24790,77553,74,70,77,"Mild infection",97.5,"Primary series viral vector","Delta","Adults",-1.34707364796661
+35438175,"D. M. Skowronski",2022,391,"C","2*CHAdOx1",341,3045,24790,77553,72,69,75,"Mild infection",125.5,"Primary series viral vector","Delta","Adults",-1.27296567581289
+35438175,"D. M. Skowronski",2022,392,"C","2*CHAdOx1",193,2110,24790,77553,74,70,78,"Mild infection",153.5,"Primary series viral vector","Delta","Adults",-1.34707364796661
+35438175,"D. M. Skowronski",2022,394,"D","2*CHAdOx1",2,1482,12691,148143,85,38,96,"Mild infection",20.5,"Primary series viral vector","Delta","Adults",-1.89711998488588
+35438175,"D. M. Skowronski",2022,395,"D","2*CHAdOx1",11,2828,12691,148143,88,78,93,"Mild infection",41.5,"Primary series viral vector","Delta","Adults",-2.12026353620009
+35438175,"D. M. Skowronski",2022,396,"D","2*CHAdOx1",49,3177,12691,148143,85,80,89,"Mild infection",69.5,"Primary series viral vector","Delta","Adults",-1.89711998488588
+35438175,"D. M. Skowronski",2022,397,"D","2*CHAdOx1",121,4208,12691,148143,85,82,87,"Mild infection",97.5,"Primary series viral vector","Delta","Adults",-1.89711998488588
+35438175,"D. M. Skowronski",2022,398,"D","2*CHAdOx1",148,4460,12691,148143,76,72,80,"Mild infection",125.5,"Primary series viral vector","Delta","Adults",-1.42711635564015
+35438175,"D. M. Skowronski",2022,399,"D","2*CHAdOx1",144,4063,12691,148143,72,67,77,"Mild infection",153.5,"Primary series viral vector","Delta","Adults",-1.27296567581289
+35438175,"D. M. Skowronski",2022,401,"C0","2*CHAdOx1",3,1178,2402,77553,89,67,97,"Severe",41.5,"Primary series viral vector","Delta","Adults",-2.20727491318972
+35438175,"D. M. Skowronski",2022,402,"C0","2*CHAdOx1",7,2281,2402,77553,94,88,97,"Severe",69.5,"Primary series viral vector","Delta","Adults",-2.81341071676004
+35438175,"D. M. Skowronski",2022,403,"C0","2*CHAdOx1",9,3019,2402,77553,95,91,98,"Severe",97.5,"Primary series viral vector","Delta","Adults",-2.99573227355399
+35438175,"D. M. Skowronski",2022,404,"C0","2*CHAdOx1",7,3045,2402,77553,97,93,98,"Severe",125.5,"Primary series viral vector","Delta","Adults",-3.50655789731998
+35438175,"D. M. Skowronski",2022,405,"C0","2*CHAdOx1",6,2110,2402,77553,96,90,98,"Severe",153.5,"Primary series viral vector","Delta","Adults",-3.2188758248682
+35438175,"D. M. Skowronski",2022,407,"D0","2*CHAdOx1",1,2937,869,88449,98,88,100,"Severe",69.5,"Primary series viral vector","Delta","Adults",-3.91202300542815
+35438175,"D. M. Skowronski",2022,408,"D0","2*CHAdOx1",5,4207,869,88449,97,94,99,"Severe",97.5,"Primary series viral vector","Delta","Adults",-3.50655789731998
+35438175,"D. M. Skowronski",2022,409,"D0","2*CHAdOx1",7,4458,869,88449,96,90,98,"Severe",125.5,"Primary series viral vector","Delta","Adults",-3.2188758248682
+35438175,"D. M. Skowronski",2022,410,"D0","2*CHAdOx1",9,4063,869,88449,91,82,95,"Severe",153.5,"Primary series viral vector","Delta","Adults",-2.40794560865187
+36329239,"T. Homan",2022,1,"A","2*mRNA",2487,333796.7,138441,1685329.2,91.41,91.05,91.75,"Mild infection",59.5,"2*mRNA","Mixture of variants","All",-2.45457144999193
+36329239,"T. Homan",2022,2,"A","2*mRNA",3030,331170.6,138441,1685329.2,89.58,89.19,89.96,"Mild infection",119.5,"2*mRNA","Mixture of variants","All",-2.26144314966287
+36329239,"T. Homan",2022,3,"A","2*mRNA",2305,185508,138441,1685329.2,85.42,84.8,86.02,"Mild infection",179.5,"2*mRNA","Mixture of variants","All",-1.92551945940758
+36329239,"T. Homan",2022,6,"A1","2*mRNA",124,333801.2,11253,1685479.3,94.62,93.57,95.5,"Severe",59.5,"2*mRNA","Mixture of variants","All",-2.9224818118144
+36329239,"T. Homan",2022,7,"A1","2*mRNA",127,331173.8,11253,1685479.3,95.01,94.04,95.82,"Severe",119.5,"2*mRNA","Mixture of variants","All",-2.99773427622467
+36329239,"T. Homan",2022,8,"A1","2*mRNA",175,185510.3,11253,1685479.3,91.21,89.77,92.45,"Severe",179.5,"2*mRNA","Mixture of variants","All",-2.431555474291
+36329239,"T. Homan",2022,11,"A2","2*mRNA",43,333798.5,3258,1685497.9,92.26,89.48,94.3,"Death",59.5,"2*mRNA","Mixture of variants","All",-2.55876849838646
+36329239,"T. Homan",2022,12,"A2","2*mRNA",36,331172.3,3258,1685497.9,94.32,92.08,95.93,"Death",119.5,"2*mRNA","Mixture of variants","All",-2.86821895325503
+36329239,"T. Homan",2022,13,"A2","2*mRNA",50,185509.6,3258,1685497.9,91.24,88.35,93.41,"Death",179.5,"2*mRNA","Mixture of variants","All",-2.43497428103979
+36329239,"T. Homan",2022,15,"B","Primary series non-replicating viral vector",2923,395572.3,138428,1685329.19,91.22,90.35,92.02,"Mild infection",59.5,"Primary series viral vector","Mixture of variants","All",-2.43269377834107
+36329239,"T. Homan",2022,16,"B","Primary series non-replicating viral vector",4113,399948.4,138428,1685329.19,80.68,79.48,81.82,"Mild infection",119.5,"Primary series viral vector","Mixture of variants","All",-1.64402935720372
+36329239,"T. Homan",2022,17,"B","Primary series non-replicating viral vector",3419,223915,138428,1685329.19,66.29,64.22,68.24,"Mild infection",179.5,"Primary series viral vector","Mixture of variants","All",-1.08737565674212
+36329239,"T. Homan",2022,19,"B1","Primary series non-replicating viral vector",147,395577.6,11253,1685479.31,96.2,94.28,97.48,"Severe",59.5,"Primary series viral vector","Mixture of variants","All",-3.27016911925575
+36329239,"T. Homan",2022,20,"B1","Primary series non-replicating viral vector",164,399952.1,11253,1685479.31,94.61,92.54,96.1,"Severe",119.5,"Primary series viral vector","Mixture of variants","All",-2.92062480106718
+36329239,"T. Homan",2022,21,"B1","Primary series non-replicating viral vector",197,223917.5,11253,1685479.31,93.02,89.38,95.41,"Severe",179.5,"Primary series viral vector","Mixture of variants","All",-2.66212126921381
+36329239,"T. Homan",2022,23,"B2","Primary series non-replicating viral vector",44,395574.1,3258,1685482.3,99.27,94.81,99.9,"Death",59.5,"Primary series viral vector","Mixture of variants","All",-4.91988093082778
+36329239,"T. Homan",2022,24,"B2","Primary series non-replicating viral vector",39,399950.3,3258,1685482.3,98.1,94.09,99.39,"Death",119.5,"Primary series viral vector","Mixture of variants","All",-3.9633162998157
+36329239,"T. Homan",2022,25,"B2","Primary series non-replicating viral vector",52,223916.6,3258,1685482.3,96.3,85.17,99.08,"Death",179.5,"Primary series viral vector","Mixture of variants","All",-3.29683736633791
+35880469,"C. Mazagatos",2022,1,"A","2*mRNA(20-59y)",11,29,295,36,95,82,98,"Severe",51.5,"2*mRNA","Mixture of variants","Adults",-2.99573227355399
+35880469,"C. Mazagatos",2022,2,"A","2*mRNA(20-59y)",6,4,295,36,73,-81,96,"Severe",119.5,"2*mRNA","Mixture of variants","Adults",-1.30933331998376
+35880469,"C. Mazagatos",2022,3,"A","2*mRNA(20-59y)",5,6,295,36,91,50,98,"Severe",150,"2*mRNA","Mixture of variants","Adults",-2.40794560865187
+35880469,"C. Mazagatos",2022,4,"B","2*mRNA(60-69y)",6,21,101,25,97,87,99,"Severe",51.5,"2*mRNA","Mixture of variants","Elderly",-3.50655789731998
+35880469,"C. Mazagatos",2022,5,"B","2*mRNA(60-69y)",3,9,101,25,92,2,99,"Severe",119.5,"2*mRNA","Mixture of variants","Elderly",-2.52572864430826
+35880469,"C. Mazagatos",2022,6,"B","2*mRNA(60-69y)",2,4,101,25,96,47,100,"Severe",150,"2*mRNA","Mixture of variants","Elderly",-3.2188758248682
+35880469,"C. Mazagatos",2022,7,"C","2*mRNA(70-79y)",21,63,80,36,98,90,100,"Severe",51.5,"2*mRNA","Mixture of variants","Elderly",-3.91202300542815
+35880469,"C. Mazagatos",2022,8,"C","2*mRNA(70-79y)",11,40,80,36,98,85,100,"Severe",119.5,"2*mRNA","Mixture of variants","Elderly",-3.91202300542815
+35880469,"C. Mazagatos",2022,9,"C","2*mRNA(70-79y)",9,4,80,36,91,24,99,"Severe",150,"2*mRNA","Mixture of variants","Elderly",-2.40794560865187
+35880469,"C. Mazagatos",2022,10,"D","2*mRNA(>=80y)",38,126,335,94,86,70,94,"Severe",51.5,"2*mRNA","Mixture of variants","Elderly",-1.96611285637283
+35880469,"C. Mazagatos",2022,11,"D","2*mRNA(>=80y)",81,91,335,94,69,20,88,"Severe",119.5,"2*mRNA","Mixture of variants","Elderly",-1.17118298150294
+35880469,"C. Mazagatos",2022,12,"D","2*mRNA(>=80y)",56,43,335,94,48,-51,82,"Severe",150,"2*mRNA","Mixture of variants","Elderly",-0.653926467406664
+35507482,"G. Gray",2022,5,"B","2*BNT162b2",3,1870,1463,68783,88,62,96,"Severe",20.5,"2*mRNA","Omicron","Adults",-2.12026353620009
+35507482,"G. Gray",2022,6,"B","2*BNT162b2",120,26846,1463,68783,70,64,76,"Severe",57.5,"2*mRNA","Omicron","Adults",-1.20397280432594
+35507482,"G. Gray",2022,7,"B","2*BNT162b2",492,41455,1463,68783,71,68,74,"Severe",117.5,"2*mRNA","Omicron","Adults",-1.23787435600162
+35507482,"G. Gray",2022,8,"B","2*BNT162b2",481,13250,1463,68783,67,63,71,"Severe",177.5,"2*mRNA","Omicron","Adults",-1.10866262452161
+35507482,"G. Gray",2022,9,"B1","2*BNT162b2",31,26935,449,68783,70,56,79,"Severe",57.5,"2*mRNA","Omicron","Adults",-1.20397280432594
+35507482,"G. Gray",2022,10,"B1","2*BNT162b2",169,41778,449,68783,73,67,77,"Severe",117.5,"2*mRNA","Omicron","Adults",-1.30933331998376
+35507482,"G. Gray",2022,11,"B1","2*BNT162b2",188,13543,449,68783,71,65,76,"Severe",177.5,"2*mRNA","Omicron","Adults",-1.23787435600162
+35157002,"A. Britton",2022,1,"A","2*BNT162b2",654,9472,276336,570557,88,87,89,"Mild infection",22,"2*mRNA","Delta","Adults",-2.12026353620009
+35157002,"A. Britton",2022,2,"A","2*BNT162b2",2000,18420,276336,570557,81,80,82,"Mild infection",45.5,"2*mRNA","Delta","Adults",-1.66073120682165
+35157002,"A. Britton",2022,3,"A","2*BNT162b2",5103,37202,276336,570557,76,75,76,"Mild infection",75.5,"2*mRNA","Delta","Adults",-1.42711635564015
+35157002,"A. Britton",2022,4,"A","2*BNT162b2",12337,81623,276336,570557,74,73,74,"Mild infection",105.5,"2*mRNA","Delta","Adults",-1.34707364796661
+35157002,"A. Britton",2022,5,"A","2*BNT162b2",16250,100056,276336,570557,72,71,72,"Mild infection",135.5,"2*mRNA","Delta","Adults",-1.27296567581289
+35157002,"A. Britton",2022,6,"A","2*BNT162b2",13595,78034,276336,570557,69,69,70,"Mild infection",165.5,"2*mRNA","Delta","Adults",-1.17118298150294
+35157002,"A. Britton",2022,11,"B","2*BNT162b2",35,2354,276336,570557,93,90,95,"Mild infection",22,"2*mRNA","Mixture of variants","Adults",-2.65926003693278
+35157002,"A. Britton",2022,12,"B","2*BNT162b2",235,8152,276336,570557,86,84,88,"Mild infection",45.5,"2*mRNA","Mixture of variants","Adults",-1.96611285637283
+35157002,"A. Britton",2022,13,"B","2*BNT162b2",686,12173,276336,570557,78,76,80,"Mild infection",75.5,"2*mRNA","Mixture of variants","Adults",-1.51412773262978
+35157002,"A. Britton",2022,14,"B","2*BNT162b2",545,6904,276336,570557,72,69,74,"Mild infection",105.5,"2*mRNA","Mixture of variants","Adults",-1.27296567581289
+35157002,"A. Britton",2022,15,"B","2*BNT162b2",244,3245,276336,570557,73,69,76,"Mild infection",135.5,"2*mRNA","Mixture of variants","Adults",-1.30933331998376
+35157002,"A. Britton",2022,16,"B","2*BNT162b2",171,1579,276336,570557,63,56,68,"Mild infection",165.5,"2*mRNA","Mixture of variants","Adults",-0.994252273343867
+35157002,"A. Britton",2022,18,"C","2*BNT162b2",84,3724,276336,570557,93,92,95,"Mild infection",22,"2*mRNA","Mixture of variants","Adults",-2.65926003693278
+35157002,"A. Britton",2022,19,"C","2*BNT162b2",160,4039,276336,570557,88,86,90,"Mild infection",45.5,"2*mRNA","Mixture of variants","Adults",-2.12026353620009
+35157002,"A. Britton",2022,20,"C","2*BNT162b2",130,1991,276336,570557,82,78,85,"Mild infection",75.5,"2*mRNA","Mixture of variants","Adults",-1.71479842809193
+35157002,"A. Britton",2022,21,"C","2*BNT162b2",51,864,276336,570557,81,75,86,"Mild infection",105.5,"2*mRNA","Mixture of variants","Adults",-1.66073120682165
+35157002,"A. Britton",2022,22,"C","2*BNT162b2",1,145,276336,570557,97,81,100,"Mild infection",135.5,"2*mRNA","Mixture of variants","Adults",-3.50655789731998
+35157002,"A. Britton",2022,23,"D","2*mRNA-1273",34,2570,276336,570557,96,95,97,"Mild infection",22,"2*mRNA","Mixture of variants","Adults",-3.2188758248682
+35157002,"A. Britton",2022,24,"D","2*mRNA-1273",66,3600,276336,570557,95,94,96,"Mild infection",45.5,"2*mRNA","Mixture of variants","Adults",-2.99573227355399
+35157002,"A. Britton",2022,25,"D","2*mRNA-1273",58,2181,276336,570557,92,90,94,"Mild infection",75.5,"2*mRNA","Mixture of variants","Adults",-2.52572864430826
+35157002,"A. Britton",2022,26,"D","2*mRNA-1273",14,651,276336,570557,92,87,95,"Mild infection",105.5,"2*mRNA","Mixture of variants","Adults",-2.52572864430826
+35157002,"A. Britton",2022,27,"E","2*mRNA-1273",14,1558,276336,570557,95,92,97,"Mild infection",22,"2*mRNA","Mixture of variants","Adults",-2.99573227355399
+35157002,"A. Britton",2022,28,"E","2*mRNA-1273",101,5545,276336,570557,92,90,93,"Mild infection",45.5,"2*mRNA","Mixture of variants","Adults",-2.52572864430826
+35157002,"A. Britton",2022,29,"E","2*mRNA-1273",231,7044,276336,570557,87,85,89,"Mild infection",75.5,"2*mRNA","Mixture of variants","Adults",-2.04022082852655
+35157002,"A. Britton",2022,30,"E","2*mRNA-1273",201,4735,276336,570557,84,81,86,"Mild infection",105.5,"2*mRNA","Mixture of variants","Adults",-1.83258146374831
+35157002,"A. Britton",2022,31,"E","2*mRNA-1273",192,3520,276336,570557,80,77,83,"Mild infection",135.5,"2*mRNA","Mixture of variants","Adults",-1.6094379124341
+35157002,"A. Britton",2022,32,"E","2*mRNA-1273",79,955,276336,570557,73,66,79,"Mild infection",165.5,"2*mRNA","Mixture of variants","Adults",-1.30933331998376
+35157002,"A. Britton",2022,33,"F","2*mRNA-1273",179,3915,276336,570557,92,91,93,"Mild infection",22,"2*mRNA","Delta","Adults",-2.52572864430826
+35157002,"A. Britton",2022,34,"F","2*mRNA-1273",679,9863,276336,570557,88,87,89,"Mild infection",45.5,"2*mRNA","Delta","Adults",-2.12026353620009
+35157002,"A. Britton",2022,35,"F","2*mRNA-1273",2202,24818,276336,570557,84,84,85,"Mild infection",75.5,"2*mRNA","Delta","Adults",-1.83258146374831
+35157002,"A. Britton",2022,36,"F","2*mRNA-1273",5106,52511,276336,570557,83,83,84,"Mild infection",105.5,"2*mRNA","Delta","Adults",-1.77195684193187
+35157002,"A. Britton",2022,37,"F","2*mRNA-1273",6792,62674,276336,570557,81,81,81,"Mild infection",135.5,"2*mRNA","Delta","Adults",-1.66073120682165
+35157002,"A. Britton",2022,38,"F","2*mRNA-1273",6694,55410,276336,570557,79,78,79,"Mild infection",165.5,"2*mRNA","Delta","Adults",-1.56064774826467
+35157002,"A. Britton",2022,43,"G","1*Ad26.COV2.S",179,964,276336,570557,50,42,58,"Mild infection",22,"Primary series viral vector","Mixture of variants","Adults",-0.693147180559945
+35157002,"A. Britton",2022,44,"G","1*Ad26.COV2.S",142,1125,276336,570557,61,53,67,"Mild infection",45.5,"Primary series viral vector","Mixture of variants","Adults",-0.941608539858445
+35157002,"A. Britton",2022,45,"G","1*Ad26.COV2.S",19,217,276336,570557,69,50,80,"Mild infection",75.5,"Primary series viral vector","Mixture of variants","Adults",-1.17118298150294
+35157002,"A. Britton",2022,46,"H","1*Ad26.COV2.S",40,249,276336,570557,29,0,50,"Mild infection",22,"Primary series viral vector","Mixture of variants","Adults",-0.342490308946776
+35157002,"A. Britton",2022,47,"H","1*Ad26.COV2.S",75,660,276336,570557,47,32,58,"Mild infection",45.5,"Primary series viral vector","Mixture of variants","Adults",-0.63487827243597
+35157002,"A. Britton",2022,48,"H","1*Ad26.COV2.S",157,1698,276336,570557,57,49,64,"Mild infection",75.5,"Primary series viral vector","Mixture of variants","Adults",-0.843970070294529
+35157002,"A. Britton",2022,49,"H","1*Ad26.COV2.S",281,1712,276336,570557,42,34,49,"Mild infection",105.5,"Primary series viral vector","Mixture of variants","Adults",-0.544727175441672
+35157002,"A. Britton",2022,50,"H","1*Ad26.COV2.S",52,295,276336,570557,48,29,61,"Mild infection",135.5,"Primary series viral vector","Mixture of variants","Adults",-0.653926467406664
+35157002,"A. Britton",2022,51,"I","1*Ad26.COV2.S",425,1080,276336,570557,35,27,42,"Mild infection",22,"Primary series viral vector","Delta","Adults",-0.430782916092454
+35157002,"A. Britton",2022,52,"I","1*Ad26.COV2.S",851,2348,276336,570557,40,35,45,"Mild infection",45.5,"Primary series viral vector","Delta","Adults",-0.510825623765991
+35157002,"A. Britton",2022,53,"I","1*Ad26.COV2.S",1306,3841,276336,570557,43,40,47,"Mild infection",75.5,"Primary series viral vector","Delta","Adults",-0.562118918153541
+35157002,"A. Britton",2022,54,"I","1*Ad26.COV2.S",2357,8094,276336,570557,51,48,53,"Mild infection",105.5,"Primary series viral vector","Delta","Adults",-0.713349887877465
+35157002,"A. Britton",2022,55,"I","1*Ad26.COV2.S",4045,14917,276336,570557,54,52,55,"Mild infection",135.5,"Primary series viral vector","Delta","Adults",-0.776528789498996
+35157002,"A. Britton",2022,56,"I","1*Ad26.COV2.S",3466,13430,276336,570557,54,52,55,"Mild infection",165.5,"Primary series viral vector","Delta","Adults",-0.776528789498996
+36335289,"U. Baum",2022,1,"A","2*BNT162b2",33,144412,793,244838,93,89,95,"Severe",52,"2*mRNA","Mixture of variants","Elderly",-2.65926003693278
+36335289,"U. Baum",2022,2,"A","2*BNT162b2",210,158116,793,244838,85,82,87,"Severe",135.5,"2*mRNA","Mixture of variants","Elderly",-1.89711998488588
+36335289,"U. Baum",2022,8,"D","2*mRNA-1273",5,16589,793,244838,93,82,97,"Severe",52,"2*mRNA","Mixture of variants","Elderly",-2.65926003693278
+36335289,"U. Baum",2022,9,"D","2*mRNA-1273",34,17796,793,244838,82,74,87,"Severe",135.5,"2*mRNA","Mixture of variants","Elderly",-1.71479842809193
+36335289,"U. Baum",2022,15,"G","2*ChAdOx1",5,8248,793,244838,81,49,93,"Severe",52,"Primary series viral vector","Mixture of variants","Elderly",-1.66073120682165
+36335289,"U. Baum",2022,16,"G","2*ChAdOx1",23,9067,793,244838,74,60,83,"Severe",135.5,"Primary series viral vector","Mixture of variants","Elderly",-1.34707364796661
+36335289,"U. Baum",2022,21,"A1","2*BNT162b2",2,144413,159,244856,98,92,99,"Severe",52,"2*mRNA","Mixture of variants","Elderly",-3.91202300542815
+36335289,"U. Baum",2022,22,"A1","2*BNT162b2",26,158121,159,244856,92,87,95,"Severe",135.5,"2*mRNA","Mixture of variants","Elderly",-2.52572864430826
+36335289,"U. Baum",2022,28,"D1","2*mRNA-1273",0,16589,159,244856,99.5,99.5,99.5,"Severe",52,"2*mRNA","Mixture of variants","Elderly",-5.29831736654804
+36335289,"U. Baum",2022,29,"D1","2*mRNA-1273",1,17797,159,244856,94.5,79.5,98.5,"Severe",135.5,"2*mRNA","Mixture of variants","Elderly",-2.90042209374967
+36335289,"U. Baum",2022,35,"G1","2*ChAdOx1",1,8248,159,244856,78,2,95,"Severe",52,"Primary series viral vector","Mixture of variants","Elderly",-1.51412773262978
+36335289,"U. Baum",2022,36,"G1","2*ChAdOx1",5,9067,159,244856,81,52,83,"Severe",135.5,"Primary series viral vector","Mixture of variants","Elderly",-1.66073120682165
+36335289,"U. Baum",2022,42,"A2","2*BNT162b2",6,4694,150,11015,90,78,96,"Severe",52,"2*mRNA","Delta","Elderly",-2.30258509299405
+36335289,"U. Baum",2022,43,"A2","2*BNT162b2",157,103650,150,11015,89,85,91,"Severe",135.5,"2*mRNA","Delta","Elderly",-2.20727491318972
+36335289,"U. Baum",2022,49,"D2","2*mRNA-1273",1,862,150,11015,92,42,99,"Severe",52,"2*mRNA","Delta","Elderly",-2.52572864430826
+36335289,"U. Baum",2022,50,"D2","2*mRNA-1273",22,12397,150,11015,88,81,93,"Severe",135.5,"2*mRNA","Delta","Elderly",-2.12026353620009
+36335289,"U. Baum",2022,56,"G2","2*ChAdOx1",0,295,150,11015,99.5,99.5,99.5,"Severe",52,"Primary series viral vector","Delta","Elderly",-5.29831736654804
+36335289,"U. Baum",2022,57,"G2","2*ChAdOx1",21,8040,150,11015,78.5,66.5,86.5,"Severe",135.5,"Primary series viral vector","Delta","Elderly",-1.53711725085447
+36335289,"U. Baum",2022,63,"A3","2*BNT162b2",9,2993,292,8929,91,83,95,"Severe",52,"2*mRNA","Omicron","Elderly",-2.40794560865187
+36335289,"U. Baum",2022,64,"A3","2*BNT162b2",28,3323,292,8929,75,62,83,"Severe",135.5,"2*mRNA","Omicron","Elderly",-1.38629436111989
+36335289,"U. Baum",2022,70,"D3","2*mRNA-1273",3,485,292,8929,79,43,92,"Severe",52,"2*mRNA","Omicron","Elderly",-1.56064774826467
+36335289,"U. Baum",2022,71,"D3","2*mRNA-1273",5,594,292,8929,74,36,89,"Severe",135.5,"2*mRNA","Omicron","Elderly",-1.34707364796661
+34619098,"S. Y. Tartof",2021,1,"A","2*BNT162b2(12-15y)",23,5586,8425,106559,91,86,94,"Mild infection",21.5,"2*mRNA","Mixture of variants","Children",-2.40794560865187
+34619098,"S. Y. Tartof",2021,2,"A","2*BNT162b2(12-15y)",31,3354,8425,106559,92,88,94,"Mild infection",51.5,"2*mRNA","Mixture of variants","Children",-2.52572864430826
+34619098,"S. Y. Tartof",2021,3,"A","2*BNT162b2(12-15y)",4,309,8425,106559,88,68,96,"Mild infection",81.5,"2*mRNA","Mixture of variants","Children",-2.12026353620009
+34619098,"S. Y. Tartof",2021,4,"A","2*BNT162b2(12-15y)",1,43,8425,106559,84,-14,98,"Mild infection",111.5,"2*mRNA","Mixture of variants","Children",-1.83258146374831
+34619098,"S. Y. Tartof",2021,5,"B","2*BNT162b2(16-44y)",90,31235,82655,597554,89,87,91,"Mild infection",21.5,"2*mRNA","Mixture of variants","All",-2.20727491318972
+34619098,"S. Y. Tartof",2021,6,"B","2*BNT162b2(16-44y)",165,28944,82655,597554,84,81,86,"Mild infection",51.5,"2*mRNA","Mixture of variants","All",-1.83258146374831
+34619098,"S. Y. Tartof",2021,7,"B","2*BNT162b2(16-44y)",355,23861,82655,597554,78,75,80,"Mild infection",81.5,"2*mRNA","Mixture of variants","All",-1.51412773262978
+34619098,"S. Y. Tartof",2021,8,"B","2*BNT162b2(16-44y)",429,14621,82655,597554,68,65,71,"Mild infection",111.5,"2*mRNA","Mixture of variants","All",-1.13943428318837
+34619098,"S. Y. Tartof",2021,9,"B","2*BNT162b2(16-44y)",265,6769,82655,597554,57,51,62,"Mild infection",141.5,"2*mRNA","Mixture of variants","All",-0.843970070294529
+34619098,"S. Y. Tartof",2021,10,"B","2*BNT162b2(16-44y)",348,4811,82655,597554,39,32,45,"Mild infection",157,"2*mRNA","Mixture of variants","All",-0.49429632181478
+34619098,"S. Y. Tartof",2021,11,"C","2*BNT162b2(45-64y)",71,23946,51922,359505,87,84,90,"Mild infection",21.5,"2*mRNA","Mixture of variants","Adults",-2.04022082852655
+34619098,"S. Y. Tartof",2021,12,"C","2*BNT162b2(45-64y)",80,22945,51922,359505,85,81,88,"Mild infection",51.5,"2*mRNA","Mixture of variants","Adults",-1.89711998488588
+34619098,"S. Y. Tartof",2021,13,"C","2*BNT162b2(45-64y)",201,20600,51922,359505,78,74,81,"Mild infection",81.5,"2*mRNA","Mixture of variants","Adults",-1.51412773262978
+34619098,"S. Y. Tartof",2021,14,"C","2*BNT162b2(45-64y)",344,14373,51922,359505,67,63,70,"Mild infection",111.5,"2*mRNA","Mixture of variants","Adults",-1.10866262452161
+34619098,"S. Y. Tartof",2021,15,"C","2*BNT162b2(45-64y)",197,6918,51922,359505,61,55,66,"Mild infection",141.5,"2*mRNA","Mixture of variants","Adults",-0.941608539858445
+34619098,"S. Y. Tartof",2021,16,"C","2*BNT162b2(45-64y)",216,4718,51922,359505,50,43,57,"Mild infection",157,"2*mRNA","Mixture of variants","Adults",-0.693147180559945
+34619098,"S. Y. Tartof",2021,17,"D","2*BNT162b2(>=65y)",43,18145,17278,168143,80,73,85,"Mild infection",21.5,"2*mRNA","Mixture of variants","Elderly",-1.6094379124341
+34619098,"S. Y. Tartof",2021,18,"D","2*BNT162b2(>=65y)",34,17868,17278,168143,79,70,85,"Mild infection",51.5,"2*mRNA","Mixture of variants","Elderly",-1.56064774826467
+34619098,"S. Y. Tartof",2021,19,"D","2*BNT162b2(>=65y)",34,17377,17278,168143,75,65,83,"Mild infection",81.5,"2*mRNA","Mixture of variants","Elderly",-1.38629436111989
+34619098,"S. Y. Tartof",2021,20,"D","2*BNT162b2(>=65y)",101,16485,17278,168143,56,45,65,"Mild infection",111.5,"2*mRNA","Mixture of variants","Elderly",-0.82098055206983
+34619098,"S. Y. Tartof",2021,21,"D","2*BNT162b2(>=65y)",255,13120,17278,168143,49,41,57,"Mild infection",141.5,"2*mRNA","Mixture of variants","Elderly",-0.673344553263766
+34619098,"S. Y. Tartof",2021,22,"D","2*BNT162b2(>=65y)",127,3810,17278,168143,43,30,54,"Mild infection",157,"2*mRNA","Mixture of variants","Elderly",-0.562118918153541
+34619098,"S. Y. Tartof",2021,23,"A1","2*BNT162b2(12-15y)",0,5782,44,110187,99.5,99.5,99.5,"Severe",21.5,"2*mRNA","Mixture of variants","Children",-5.29831736654804
+34619098,"S. Y. Tartof",2021,25,"A1","2*BNT162b2(12-15y)",0,320,44,110187,99.5,99.5,99.5,"Severe",81.5,"2*mRNA","Mixture of variants","Children",-5.29831736654804
+34619098,"S. Y. Tartof",2021,26,"A1","2*BNT162b2(12-15y)",0,44,44,110187,99.5,99.5,99.5,"Severe",111.5,"2*mRNA","Mixture of variants","Children",-5.29831736654804
+34619098,"S. Y. Tartof",2021,27,"B1","2*BNT162b2(16-44y)",8,32742,2239,626720,88,75,94,"Severe",21.5,"2*mRNA","Mixture of variants","All",-2.12026353620009
+34619098,"S. Y. Tartof",2021,28,"B1","2*BNT162b2(16-44y)",6,30293,2239,626720,91,80,96,"Severe",51.5,"2*mRNA","Mixture of variants","All",-2.40794560865187
+34619098,"S. Y. Tartof",2021,29,"B1","2*BNT162b2(16-44y)",2,24895,2239,626720,98,90,99,"Severe",81.5,"2*mRNA","Mixture of variants","All",-3.91202300542815
+34619098,"S. Y. Tartof",2021,30,"B1","2*BNT162b2(16-44y)",4,15185,2239,626720,94,85,98,"Severe",111.5,"2*mRNA","Mixture of variants","All",-2.81341071676004
+34619098,"S. Y. Tartof",2021,31,"B1","2*BNT162b2(16-44y)",4,6998,2239,626720,88,67,95,"Severe",141.5,"2*mRNA","Mixture of variants","All",-2.12026353620009
+34619098,"S. Y. Tartof",2021,32,"B1","2*BNT162b2(16-44y)",3,4944,2239,626720,90,69,97,"Severe",157,"2*mRNA","Mixture of variants","All",-2.30258509299405
+34619098,"S. Y. Tartof",2021,33,"C1","2*BNT162b2(45-64y)",7,25017,4078,374836,91,82,96,"Severe",21.5,"2*mRNA","Mixture of variants","Adults",-2.40794560865187
+34619098,"S. Y. Tartof",2021,34,"C1","2*BNT162b2(45-64y)",12,23944,4078,374836,86,75,92,"Severe",51.5,"2*mRNA","Mixture of variants","Adults",-1.96611285637283
+34619098,"S. Y. Tartof",2021,35,"C1","2*BNT162b2(45-64y)",12,21439,4078,374836,91,83,95,"Severe",81.5,"2*mRNA","Mixture of variants","Adults",-2.40794560865187
+34619098,"S. Y. Tartof",2021,36,"C1","2*BNT162b2(45-64y)",8,14889,4078,374836,94,88,97,"Severe",111.5,"2*mRNA","Mixture of variants","Adults",-2.81341071676004
+34619098,"S. Y. Tartof",2021,37,"C1","2*BNT162b2(45-64y)",3,7127,4078,374836,95,84,98,"Severe",141.5,"2*mRNA","Mixture of variants","Adults",-2.99573227355399
+34619098,"S. Y. Tartof",2021,38,"C1","2*BNT162b2(45-64y)",5,4829,4078,374836,90,75,96,"Severe",157,"2*mRNA","Mixture of variants","Adults",-2.30258509299405
+34619098,"S. Y. Tartof",2021,39,"D1","2*BNT162b2(>=65y)",19,18519,4965,171279,84,74,90,"Severe",21.5,"2*mRNA","Mixture of variants","Elderly",-1.83258146374831
+34619098,"S. Y. Tartof",2021,40,"D1","2*BNT162b2(>=65y)",12,18234,4965,171279,88,78,93,"Severe",51.5,"2*mRNA","Mixture of variants","Elderly",-2.12026353620009
+34619098,"S. Y. Tartof",2021,41,"D1","2*BNT162b2(>=65y)",10,17725,4965,171279,89,78,94,"Severe",81.5,"2*mRNA","Mixture of variants","Elderly",-2.20727491318972
+34619098,"S. Y. Tartof",2021,42,"D1","2*BNT162b2(>=65y)",15,16797,4965,171279,86,77,92,"Severe",111.5,"2*mRNA","Mixture of variants","Elderly",-1.96611285637283
+34619098,"S. Y. Tartof",2021,43,"D1","2*BNT162b2(>=65y)",30,13335,4965,171279,85,77,90,"Severe",141.5,"2*mRNA","Mixture of variants","Elderly",-1.89711998488588
+34619098,"S. Y. Tartof",2021,44,"D1","2*BNT162b2(>=65y)",13,3853,4965,171279,83,69,90,"Severe",157,"2*mRNA","Mixture of variants","Elderly",-1.77195684193187
+34942103,"S. V. Katikireddi",2022,11,"B","2*ChAdOx1",69,49899,1886,318254,67.9,65.9,69.8,"Mild infection",20.5,"Primary series viral vector","Delta","Adults",-1.13631415585212
+34942103,"S. V. Katikireddi",2022,12,"B","2*ChAdOx1",78,51801,1886,318254,67.3,65.3,69.1,"Mild infection",34.5,"Primary series viral vector","Delta","Adults",-1.11779510808488
+34942103,"S. V. Katikireddi",2022,13,"B","2*ChAdOx1",84,52099,1886,318254,63.8,61.7,65.7,"Mild infection",48.5,"Primary series viral vector","Delta","Adults",-1.01611106715637
+34942103,"S. V. Katikireddi",2022,14,"B","2*ChAdOx1",130,51963,1886,318254,63.3,61.3,65.3,"Mild infection",62.5,"Primary series viral vector","Delta","Adults",-1.00239343092757
+34942103,"S. V. Katikireddi",2022,15,"B","2*ChAdOx1",136,51475,1886,318254,59.3,57.2,61.4,"Mild infection",76.5,"Primary series viral vector","Delta","Adults",-0.898942093539542
+34942103,"S. V. Katikireddi",2022,16,"B","2*ChAdOx1",152,50082,1886,318254,55.3,53,57.5,"Mild infection",90.5,"Primary series viral vector","Delta","Adults",-0.805196684368568
+34942103,"S. V. Katikireddi",2022,17,"B","2*ChAdOx1",199,46488,1886,318254,52.9,50.4,55.2,"Mild infection",104.5,"Primary series viral vector","Delta","Adults",-0.752897184965719
+34942103,"S. V. Katikireddi",2022,18,"B","2*ChAdOx1",214,42421,1886,318254,48.7,45.9,51.4,"Mild infection",118.5,"Primary series viral vector","Delta","Adults",-0.667479433811368
+34942103,"S. V. Katikireddi",2022,19,"B","2*ChAdOx1",211,37181,1886,318254,44.6,41.5,47.6,"Mild infection",132.5,"Primary series viral vector","Delta","Adults",-0.590590592234853
+34942103,"S. V. Katikireddi",2022,20,"B","2*ChAdOx1",185,24478,1886,318254,39.1,35.4,42.6,"Mild infection",146.5,"Primary series viral vector","Delta","Adults",-0.49593701127224
+34942103,"S. V. Katikireddi",2022,21,"C","2*ChAdOx1",14,4994,266,13933,69.8,69.3,70.4,"Mild infection",20.5,"Primary series viral vector","Gamma","Adults",-1.19732826160727
+34942103,"S. V. Katikireddi",2022,22,"C","2*ChAdOx1",16,11418,266,13933,68.4,67.8,68.9,"Mild infection",34.5,"Primary series viral vector","Gamma","Adults",-1.15201306539523
+34942103,"S. V. Katikireddi",2022,23,"C","2*ChAdOx1",32,13637,266,13933,66.8,66.1,67.5,"Mild infection",48.5,"Primary series viral vector","Gamma","Adults",-1.10262031006565
+34942103,"S. V. Katikireddi",2022,24,"C","2*ChAdOx1",76,14160,266,13933,65.4,64.6,66.2,"Mild infection",62.5,"Primary series viral vector","Gamma","Adults",-1.06131650392441
+34942103,"S. V. Katikireddi",2022,25,"C","2*ChAdOx1",79,14175,266,13933,63.2,62.2,64.2,"Mild infection",76.5,"Primary series viral vector","Gamma","Adults",-0.999672340813206
+34942103,"S. V. Katikireddi",2022,26,"C","2*ChAdOx1",91,14141,266,13933,58.8,57.4,60.1,"Mild infection",90.5,"Primary series viral vector","Gamma","Adults",-0.886731929632611
+34942103,"S. V. Katikireddi",2022,27,"C","2*ChAdOx1",83,14102,266,13933,59.8,58.2,61.4,"Mild infection",104.5,"Primary series viral vector","Gamma","Adults",-0.911303190363116
+34942103,"S. V. Katikireddi",2022,28,"C","2*ChAdOx1",107,14055,266,13933,58.7,56.7,60.5,"Mild infection",118.5,"Primary series viral vector","Gamma","Adults",-0.884307686021104
+34942103,"S. V. Katikireddi",2022,29,"C","2*ChAdOx1",195,13966,266,13933,57.7,55.4,60,"Mild infection",132.5,"Primary series viral vector","Gamma","Adults",-0.860383099935859
+35176007,"J. M. Ferdinands",2022,1,"A","2*mRNA",144,4109,29063,57011,92,91,94,"Mild infection",36.5,"2*mRNA","Delta","Adults",-2.52572864430826
+35176007,"J. M. Ferdinands",2022,2,"A","2*mRNA",527,8135,29063,57011,88,86,89,"Mild infection",89.5,"2*mRNA","Delta","Adults",-2.12026353620009
+35176007,"J. M. Ferdinands",2022,3,"A","2*mRNA",721,8220,29063,57011,85,83,86,"Mild infection",134.5,"2*mRNA","Delta","Adults",-1.89711998488588
+35176007,"J. M. Ferdinands",2022,4,"A","2*mRNA",6744,56771,29063,57011,77,76,78,"Mild infection",150,"2*mRNA","Delta","Adults",-1.46967597005894
+35176007,"J. M. Ferdinands",2022,8,"C","2*mRNA",157,398,29063,57011,69,62,75,"Mild infection",36.5,"2*mRNA","Omicron","Adults",-1.17118298150294
+35176007,"J. M. Ferdinands",2022,9,"C","2*mRNA",785,1197,13991,10808,50,45,55,"Mild infection",89.5,"2*mRNA","Omicron","Adults",-0.693147180559945
+35176007,"J. M. Ferdinands",2022,10,"C","2*mRNA",509,725,13991,10808,48,41,54,"Mild infection",134.5,"2*mRNA","Omicron","Adults",-0.653926467406664
+35176007,"J. M. Ferdinands",2022,11,"C","2*mRNA",6900,9151,13991,10808,37,34,40,"Mild infection",150,"2*mRNA","Omicron","Adults",-0.462035459596559
+35176007,"J. M. Ferdinands",2022,16,"A1","2*mRNA",49,1525,14445,21769,94,92,96,"Severe",36.5,"2*mRNA","Delta","Adults",-2.81341071676004
+35176007,"J. M. Ferdinands",2022,17,"A1","2*mRNA",154,2636,14445,21769,91,89,92,"Severe",89.5,"2*mRNA","Delta","Adults",-2.40794560865187
+35176007,"J. M. Ferdinands",2022,18,"A1","2*mRNA",192,2937,14445,21769,90,89,92,"Severe",134.5,"2*mRNA","Delta","Adults",-2.30258509299405
+35176007,"J. M. Ferdinands",2022,19,"A1","2*mRNA",2920,28294,14445,21769,82,82,83,"Severe",150,"2*mRNA","Delta","Adults",-1.71479842809193
+35176007,"J. M. Ferdinands",2022,23,"C1","2*mRNA",22,66,1890,2021,71,51,83,"Severe",36.5,"2*mRNA","Omicron","Adults",-1.23787435600162
+35176007,"J. M. Ferdinands",2022,24,"C1","2*mRNA",69,225,1890,2021,65,53,74,"Severe",89.5,"2*mRNA","Omicron","Adults",-1.04982212449868
+35176007,"J. M. Ferdinands",2022,25,"C1","2*mRNA",42,108,1890,2021,58,38,71,"Severe",134.5,"2*mRNA","Omicron","Adults",-0.867500567704723
+35176007,"J. M. Ferdinands",2022,26,"C1","2*mRNA",846,2241,1890,2021,54,48,59,"Severe",150,"2*mRNA","Omicron","Adults",-0.776528789498996
+35021002,"N. Andrews",2022,1,"A1","2*ChAdOx1(40-64y)",89337,180719,46307,58370,62,61.3,62.6,"Mild infection",41.5,"Primary series viral vector","Delta","Adults",-0.967584026261706
+35021002,"N. Andrews",2022,2,"A1","2*ChAdOx1(40-64y)",79973,120590,46307,58370,57.4,56.6,58.2,"Mild infection",87,"Primary series viral vector","Delta","Adults",-0.853315932712767
+35021002,"N. Andrews",2022,3,"A1","2*ChAdOx1(40-64y)",42824,78396,46307,58370,55.4,54.4,56.3,"Mild infection",122,"Primary series viral vector","Delta","Adults",-0.807436326962073
+35021002,"N. Andrews",2022,4,"A1","2*ChAdOx1(40-64y)",5234,11394,46307,58370,56.7,55,58.4,"Mild infection",140,"Primary series viral vector","Delta","Adults",-0.837017550979647
+35021002,"N. Andrews",2022,5,"A2","2*ChAdOx1(>=65y)",3090,18879,1854,2359,59.1,55.4,62.6,"Mild infection",41.5,"Primary series viral vector","Delta","Elderly",-0.894040122939335
+35021002,"N. Andrews",2022,6,"A2","2*ChAdOx1(>=65y)",9762,18768,1854,2359,50.1,46.1,53.8,"Mild infection",87,"Primary series viral vector","Delta","Elderly",-0.695149183230618
+35021002,"N. Andrews",2022,7,"A2","2*ChAdOx1(>=65y)",19282,42824,1854,2359,43.8,39.3,47.9,"Mild infection",122,"Primary series viral vector","Delta","Elderly",-0.576253429088446
+35021002,"N. Andrews",2022,8,"A2","2*ChAdOx1(>=65y)",8383,11589,1854,2359,38,32.7,42.8,"Mild infection",157,"Primary series viral vector","Delta","Elderly",-0.478035800943
+35021002,"N. Andrews",2022,9,"A2","2*ChAdOx1(>=65y)",453,631,1854,2359,27.8,16.3,37.8,"Mild infection",175,"Primary series viral vector","Delta","Elderly",-0.325730140089311
+35021002,"N. Andrews",2022,10,"B1","2*BNT162b2(16-39y)",2924,27535,338947,342028,92.4,92.1,92.7,"Mild infection",10,"2*mRNA","Delta","All",-2.57702193869581
+35021002,"N. Andrews",2022,11,"B1","2*BNT162b2(16-39y)",15488,150027,338947,342028,89.5,89.3,89.7,"Mild infection",41.5,"2*mRNA","Delta","All",-2.25379492882461
+35021002,"N. Andrews",2022,12,"B1","2*BNT162b2(16-39y)",2174,13115,338947,342028,72.9,71.5,74.1,"Mild infection",87,"2*mRNA","Delta","All",-1.30563645810244
+35021002,"N. Andrews",2022,13,"B1","2*BNT162b2(16-39y)",22,131,338947,342028,69.8,52.4,80.8,"Mild infection",122,"2*mRNA","Delta","All",-1.19732826160727
+35021002,"N. Andrews",2022,14,"B2","2*BNT162b2(40-64y)",275,2923,46307,58370,87.7,86,89.2,"Mild infection",10,"2*mRNA","Delta","Adults",-2.09557092360972
+35021002,"N. Andrews",2022,15,"B2","2*BNT162b2(40-64y)",5461,34319,46307,58370,84.3,83.7,84.8,"Mild infection",41.5,"2*mRNA","Delta","Adults",-1.85150947363383
+35021002,"N. Andrews",2022,16,"B2","2*BNT162b2(40-64y)",7837,23239,46307,58370,77.3,76.6,78,"Mild infection",87,"2*mRNA","Delta","Adults",-1.48280526150073
+35021002,"N. Andrews",2022,17,"B2","2*BNT162b2(40-64y)",9495,24132,46307,58370,72.1,71.2,72.9,"Mild infection",122,"2*mRNA","Delta","Adults",-1.27654349716077
+35021002,"N. Andrews",2022,18,"B2","2*BNT162b2(40-64y)",2820,8643,46307,58370,69.2,67.7,70.6,"Mild infection",140,"2*mRNA","Delta","Adults",-1.17765549600856
+35021002,"N. Andrews",2022,19,"B3","2*BNT162b2(>=65y)",13,913,1854,2359,60,25.4,78.6,"Mild infection",10,"2*mRNA","Delta","Elderly",-0.916290731874155
+35021002,"N. Andrews",2022,20,"B3","2*BNT162b2(>=65y)",620,10840,1854,2359,79.6,77,81.8,"Mild infection",41.5,"2*mRNA","Delta","Elderly",-1.58963528513792
+35021002,"N. Andrews",2022,21,"B3","2*BNT162b2(>=65y)",3381,12292,1854,2359,69.4,66.7,71.8,"Mild infection",87,"2*mRNA","Delta","Elderly",-1.18417017702976
+35021002,"N. Andrews",2022,22,"B3","2*BNT162b2(>=65y)",6780,13058,1854,2359,63.1,60.2,65.9,"Mild infection",122,"2*mRNA","Delta","Elderly",-0.99695863494161
+35021002,"N. Andrews",2022,23,"B3","2*BNT162b2(>=65y)",5996,10753,1854,2359,54.9,51.1,58.5,"Mild infection",157,"2*mRNA","Delta","Elderly",-0.796287939479459
+35021002,"N. Andrews",2022,24,"B3","2*BNT162b2(>=65y)",697,1390,1854,2359,51.8,45.4,57.4,"Mild infection",175,"2*mRNA","Delta","Elderly",-0.729811164931537
+35021002,"N. Andrews",2022,25,"A11","2*ChAdOx1(40-64y)",335,176252,1535,52852,96.2,95.7,96.6,"Severe",41.5,"Primary series viral vector","Delta","Adults",-3.27016911925575
+35021002,"N. Andrews",2022,26,"A11","2*ChAdOx1(40-64y)",422,94055,1535,52852,93.2,92.4,94,"Severe",87,"Primary series viral vector","Delta","Adults",-2.68824757380603
+35021002,"N. Andrews",2022,27,"A11","2*ChAdOx1(40-64y)",243,33792,1535,52852,89.9,88.1,91.4,"Severe",122,"Primary series viral vector","Delta","Adults",-2.29263476214088
+35021002,"N. Andrews",2022,28,"A11","2*ChAdOx1(40-64y)",38,2447,1535,52852,79.1,70.3,85.3,"Severe",140,"Primary series viral vector","Delta","Adults",-1.56542102701733
+35021002,"N. Andrews",2022,29,"A21","2*ChAdOx1(>=65y)",80,18858,219,2098,91.7,88.8,93.9,"Severe",41.5,"Primary series viral vector","Delta","Elderly",-2.48891467118554
+35021002,"N. Andrews",2022,30,"A21","2*ChAdOx1(>=65y)",262,18689,219,2098,90.1,87.7,92,"Severe",87,"Primary series viral vector","Delta","Elderly",-2.31263542884755
+35021002,"N. Andrews",2022,31,"A21","2*ChAdOx1(>=65y)",458,17357,219,2098,85.8,82.7,88.4,"Severe",122,"Primary series viral vector","Delta","Elderly",-1.95192822138088
+35021002,"N. Andrews",2022,32,"A21","2*ChAdOx1(>=65y)",185,4923,219,2098,81.8,76.6,85.9,"Severe",140,"Primary series viral vector","Delta","Elderly",-1.70374859190534
+35021002,"N. Andrews",2022,36,"B21","2*BNT162b2(40-64y)",0,2798,1535,52852,99.5,99.5,99.5,"Severe",10,"2*mRNA","Delta","Adults",-5.29831736654804
+35021002,"N. Andrews",2022,37,"B21","2*BNT162b2(40-64y)",25,31682,1535,52852,98.1,97.4,98.6,"Severe",41.5,"2*mRNA","Delta","Adults",-3.9633162998157
+35021002,"N. Andrews",2022,38,"B21","2*BNT162b2(40-64y)",49,21018,1535,52852,97.2,96.4,97.8,"Severe",87,"2*mRNA","Delta","Adults",-3.57555076880693
+35021002,"N. Andrews",2022,39,"B21","2*BNT162b2(40-64y)",53,16954,1535,52852,96,94.8,96.9,"Severe",122,"2*mRNA","Delta","Adults",-3.2188758248682
+35021002,"N. Andrews",2022,40,"B21","2*BNT162b2(40-64y)",8,2109,1535,52852,93.3,87,96.4,"Severe",140,"2*mRNA","Delta","Adults",-2.70306265959117
+35021002,"N. Andrews",2022,41,"B31","2*BNT162b2(>=65y)",0,912,219,2098,99.5,99.5,99.5,"Severe",10,"2*mRNA","Delta","Elderly",-5.29831736654804
+35021002,"N. Andrews",2022,42,"B31","2*BNT162b2(>=65y)",9,10819,219,2098,97.5,95.4,98.6,"Severe",41.5,"2*mRNA","Delta","Elderly",-3.68887945411394
+35021002,"N. Andrews",2022,43,"B31","2*BNT162b2(>=65y)",75,12273,219,2098,95.3,93.9,96.4,"Severe",87,"2*mRNA","Delta","Elderly",-3.05760767727208
+35021002,"N. Andrews",2022,44,"B31","2*BNT162b2(>=65y)",173,12437,219,2098,92.9,91.1,94.2,"Severe",122,"2*mRNA","Delta","Elderly",-2.64507540194082
+35021002,"N. Andrews",2022,45,"B31","2*BNT162b2(>=65y)",141,6328,219,2098,90,87.1,92.2,"Severe",140,"2*mRNA","Delta","Elderly",-2.30258509299405
+35021002,"N. Andrews",2022,46,"A12","2*ChAdOx1(>=16y)",56,269333,195,383872,95,93.1,96.4,"Death",41.5,"Primary series viral vector","Delta","All",-2.99573227355399
+35021002,"N. Andrews",2022,47,"A12","2*ChAdOx1(>=16y)",100,126863,195,383872,93.7,91.8,95.2,"Death",87,"Primary series viral vector","Delta","All",-2.76462055259061
+35021002,"N. Andrews",2022,48,"A12","2*ChAdOx1(>=16y)",126,40484,195,383872,90.1,86.9,92.6,"Death",122,"Primary series viral vector","Delta","All",-2.31263542884755
+35021002,"N. Andrews",2022,49,"A12","2*ChAdOx1(>=16y)",33,5072,195,383872,84.8,76.2,90.3,"Death",140,"Primary series viral vector","Delta","All",-1.88387475813586
+35021002,"N. Andrews",2022,50,"A22","2*ChAdOx1(>=65y)",18,18827,65,1888,94.1,89.6,96.7,"Death",41.5,"Primary series viral vector","Delta","Elderly",-2.83021783507642
+35021002,"N. Andrews",2022,51,"A22","2*ChAdOx1(>=65y)",60,18461,65,1888,92.9,89.5,95.2,"Death",87,"Primary series viral vector","Delta","Elderly",-2.64507540194082
+35021002,"N. Andrews",2022,52,"A22","2*ChAdOx1(>=65y)",110,12511,65,1888,87.9,82.6,91.5,"Death",122,"Primary series viral vector","Delta","Elderly",-2.1119647333854
+35021002,"N. Andrews",2022,53,"A22","2*ChAdOx1(>=65y)",31,1298,65,1888,82.1,70.1,89.3,"Death",140,"Primary series viral vector","Delta","Elderly",-1.72036947314138
+35021002,"N. Andrews",2022,54,"B12","2*BNT162b2(>=16y)",6,127669,195,383872,98.5,96.5,99.3,"Death",41.5,"2*mRNA","Delta","All",-4.19970507787993
+35021002,"N. Andrews",2022,55,"B12","2*BNT162b2(>=16y)",42,74176,195,383872,96,94.2,97.2,"Death",87,"2*mRNA","Delta","All",-3.2188758248682
+35021002,"N. Andrews",2022,56,"B12","2*BNT162b2(>=16y)",74,56497,195,383872,94.5,92.5,96,"Death",122,"2*mRNA","Delta","All",-2.90042209374967
+35021002,"N. Andrews",2022,57,"B12","2*BNT162b2(>=16y)",75,20223,195,383872,91.9,88.5,94.3,"Death",140,"2*mRNA","Delta","All",-2.5133061243097
+35021002,"N. Andrews",2022,58,"B22","2*BNT162b2(>=65y)",4,11154,65,1888,97.1,91.7,99,"Death",41.5,"2*mRNA","Delta","Elderly",-3.54045944899566
+35021002,"N. Andrews",2022,59,"B22","2*BNT162b2(>=65y)",31,12707,65,1888,95.1,92.1,96.9,"Death",87,"2*mRNA","Delta","Elderly",-3.01593498087151
+35021002,"N. Andrews",2022,60,"B22","2*BNT162b2(>=65y)",66,11175,65,1888,93.2,90.1,95.4,"Death",122,"2*mRNA","Delta","Elderly",-2.68824757380603
+35021002,"N. Andrews",2022,61,"B22","2*BNT162b2(>=65y)",74,4730,65,1888,90.2,85.3,93.5,"Death",140,"2*mRNA","Delta","Elderly",-2.32278780031157
+35620997,"E. Kissling",2022,1,"A","2*BNT162b2(30-59y)",123,1287,1045,1684,87,83,89,"Mild infection",21.5,"2*mRNA","Delta","Adults",-2.04022082852655
+35620997,"E. Kissling",2022,2,"A","2*BNT162b2(30-59y)",261,1584,1045,1684,76,72,81,"Mild infection",44.5,"2*mRNA","Delta","Adults",-1.42711635564015
+35620997,"E. Kissling",2022,3,"A","2*BNT162b2(30-59y)",60,335,1045,1684,72,61,80,"Mild infection",74.5,"2*mRNA","Delta","Adults",-1.27296567581289
+35620997,"E. Kissling",2022,4,"A","2*BNT162b2(30-59y)",151,647,1045,1684,65,56,71,"Mild infection",90,"2*mRNA","Delta","Adults",-1.04982212449868
+35620997,"E. Kissling",2022,5,"B","2*BNT162b2(>=60y)",32,425,74,161,65,37,80,"Mild infection",44.5,"2*mRNA","Delta","Elderly",-1.04982212449868
+35620997,"E. Kissling",2022,6,"B","2*BNT162b2(>=60y)",146,951,74,161,66,48,78,"Mild infection",74.5,"2*mRNA","Delta","Elderly",-1.07880966137193
+35620997,"E. Kissling",2022,7,"B","2*BNT162b2(>=60y)",192,1159,74,161,64,44,77,"Mild infection",90,"2*mRNA","Delta","Elderly",-1.02165124753198
+35620997,"E. Kissling",2022,8,"C","2*ChAdOx1(30-59y)",21,107,990,1655,72,52,83,"Mild infection",21.5,"Primary series viral vector","Delta","Adults",-1.27296567581289
+35620997,"E. Kissling",2022,9,"C","2*ChAdOx1(30-59y)",79,320,990,1655,67,57,75,"Mild infection",44.5,"Primary series viral vector","Delta","Adults",-1.10866262452161
+35620997,"E. Kissling",2022,10,"C","2*ChAdOx1(30-59y)",42,162,990,1655,65,48,76,"Mild infection",74.5,"Primary series viral vector","Delta","Adults",-1.04982212449868
+35620997,"E. Kissling",2022,11,"D","2*mRNA-1273(30-59y)",19,285,1033,1672,98,93,100,"Mild infection",44.5,"2*mRNA","Delta","Adults",-3.91202300542815
+35620997,"E. Kissling",2022,12,"D","2*mRNA-1273(30-59y)",6,98,1033,1672,91,85,95,"Mild infection",74.5,"2*mRNA","Delta","Adults",-2.40794560865187
+35620997,"E. Kissling",2022,13,"D","2*mRNA-1273(30-59y)",11,33,1033,1672,90,76,96,"Mild infection",90,"2*mRNA","Delta","Adults",-2.30258509299405
+35620997,"E. Kissling",2022,14,"E","2*Ad26.COV2.S(30-59y)",123,338,919,1578,50,36,62,"Mild infection",44.5,"Primary series viral vector","Delta","Adults",-0.693147180559945
+35620997,"E. Kissling",2022,15,"E","2*Ad26.COV2.S(30-59y)",70,205,919,1578,52,33,66,"Mild infection",74.5,"Primary series viral vector","Delta","Adults",-0.7339691750802
+34911691,"K. J. Bruxvoort",2021,6,"B","2*mRNA-1273",11,2107,3064,12190,98.6,97.3,99.3,"Mild infection",37,"2*mRNA","Mixture of variants","Adults",-4.26869794936688
+34911691,"K. J. Bruxvoort",2021,7,"B","2*mRNA-1273",10,737,3064,12190,96.9,93.9,98.5,"Mild infection",75.5,"2*mRNA","Mixture of variants","Adults",-3.47376807449699
+34911691,"K. J. Bruxvoort",2021,8,"B","2*mRNA-1273",12,321,3064,12190,91.4,83.9,95.4,"Mild infection",105.5,"2*mRNA","Mixture of variants","Adults",-2.45340798272863
+34911691,"K. J. Bruxvoort",2021,9,"B","2*mRNA-1273",8,41,3064,12190,88.7,73.2,95.2,"Mild infection",135.5,"2*mRNA","Mixture of variants","Adults",-2.1803674602698
+35952702,"P. T. V. Florentino",2022,9,"A","2*BNT162b2",3469,7700,24933,22970,64.7,63,66.3,"Mild infection",20.5,"2*mRNA","Omicron","Children",-1.04128722204884
+35952702,"P. T. V. Florentino",2022,10,"A","2*BNT162b2",8060,13426,24933,22970,53,51.3,54.7,"Mild infection",34.5,"2*mRNA","Omicron","Children",-0.755022584278033
+35952702,"P. T. V. Florentino",2022,11,"A","2*BNT162b2",15631,19215,24933,22970,40.6,38.8,42.4,"Mild infection",48.5,"2*mRNA","Omicron","Children",-0.520875959619492
+35952702,"P. T. V. Florentino",2022,12,"A","2*BNT162b2",19627,20836,24933,22970,32,30,33.9,"Mild infection",62.5,"2*mRNA","Omicron","Children",-0.385662480811985
+35952702,"P. T. V. Florentino",2022,13,"A","2*BNT162b2",15069,16174,24933,22970,25.3,22.9,27.6,"Mild infection",76.5,"2*mRNA","Omicron","Children",-0.29169009384932
+35952702,"P. T. V. Florentino",2022,14,"A","2*BNT162b2",9045,12934,24933,22970,17,13.8,20,"Mild infection",90.5,"2*mRNA","Omicron","Children",-0.186329578191493
+35952702,"P. T. V. Florentino",2022,15,"A","2*BNT162b2",8348,29780,24933,22970,5.9,2.2,9.4,"Mild infection",98,"2*mRNA","Omicron","Children",-0.0608121393967575
+35952702,"P. T. V. Florentino",2022,16,"B","2*BNT162b2",494,1335,9522,4855,82.6,80.6,84.5,"Mild infection",20.5,"2*mRNA","Omicron","Children",-1.74869997976761
+35952702,"P. T. V. Florentino",2022,17,"B","2*BNT162b2",540,1160,9522,4855,77.4,74.7,79.8,"Mild infection",34.5,"2*mRNA","Omicron","Children",-1.48722027970985
+35952702,"P. T. V. Florentino",2022,18,"B","2*BNT162b2",754,1209,9522,4855,69.6,66.3,72.6,"Mild infection",48.5,"2*mRNA","Omicron","Children",-1.19072757757592
+35952702,"P. T. V. Florentino",2022,19,"B","2*BNT162b2",915,1341,9522,4855,65.4,61.9,68.7,"Mild infection",62.5,"2*mRNA","Omicron","Children",-1.06131650392441
+35952702,"P. T. V. Florentino",2022,20,"B","2*BNT162b2",717,825,9522,4855,58,52.9,62.6,"Mild infection",76.5,"2*mRNA","Omicron","Children",-0.867500567704723
+35952702,"P. T. V. Florentino",2022,21,"B","2*BNT162b2",549,464,9522,4855,45.3,37.2,52.4,"Mild infection",90.5,"2*mRNA","Omicron","Children",-0.603306476560156
+35952702,"P. T. V. Florentino",2022,22,"B","2*BNT162b2",462,425,9522,4855,50.6,42.7,57.4,"Mild infection",98,"2*mRNA","Omicron","Children",-0.705219761794215
+35952702,"P. T. V. Florentino",2022,23,"A1","2*BNT162b2",15,7700,205,22970,75.6,58.1,85.8,"Severe",20.5,"2*mRNA","Omicron","Children",-1.41058705368893
+35952702,"P. T. V. Florentino",2022,24,"A1","2*BNT162b2",20,13426,205,22970,82.8,72.1,89.4,"Severe",34.5,"2*mRNA","Omicron","Children",-1.76026080216868
+35952702,"P. T. V. Florentino",2022,25,"A1","2*BNT162b2",30,19215,205,22970,84.2,76.3,89.5,"Severe",48.5,"2*mRNA","Omicron","Children",-1.84516024595517
+35952702,"P. T. V. Florentino",2022,26,"A1","2*BNT162b2",34,20836,205,22970,83.7,76,88.9,"Severe",62.5,"2*mRNA","Omicron","Children",-1.81400507817538
+35952702,"P. T. V. Florentino",2022,27,"A1","2*BNT162b2",27,16174,205,22970,82,72.6,88.2,"Severe",76.5,"2*mRNA","Omicron","Children",-1.71479842809193
+35952702,"P. T. V. Florentino",2022,28,"A1","2*BNT162b2",12,12934,205,22970,86.4,75.2,92.6,"Severe",90.5,"2*mRNA","Omicron","Children",-1.99510039324609
+35952702,"P. T. V. Florentino",2022,29,"A1","2*BNT162b2",14,29780,205,22970,82.7,68.8,90.4,"Severe",98,"2*mRNA","Omicron","Children",-1.75446368448436
+34614327,"H. Chemaitelly",2021,43,"A12","2*BNT162b2(>=12y)",53,184,1587,1456,77.1,67.5,83.8,"Mild infection",22,"2*mRNA","Alpha","All",-1.4740332754279
+34614327,"H. Chemaitelly",2021,44,"A12","2*BNT162b2(>=12y)",18,111,1587,1494,88.6,79.2,93.7,"Mild infection",45.5,"2*mRNA","Alpha","All",-2.17155683058764
+34614327,"H. Chemaitelly",2021,45,"A12","2*BNT162b2(>=12y)",18,64,1580,1534,80.7,63.2,89.9,"Mild infection",75.5,"2*mRNA","Alpha","All",-1.64506509007725
+34614327,"H. Chemaitelly",2021,46,"A12","2*BNT162b2(>=12y)",12,29,1588,1571,60.7,21.1,80.4,"Mild infection",105.5,"2*mRNA","Alpha","All",-0.933945667112876
+34614327,"H. Chemaitelly",2021,47,"A12","2*BNT162b2(>=12y)",15,20,1583,1578,33.3,-48.3,70,"Mild infection",135.5,"2*mRNA","Alpha","All",-0.404965233066513
+34614327,"H. Chemaitelly",2021,48,"A12","2*BNT162b2(>=12y)",2,6,1587,1583,80,-71.2,97.7,"Mild infection",151,"2*mRNA","Alpha","All",-1.6094379124341
+34614327,"H. Chemaitelly",2021,49,"A13","2*BNT162b2(>=12y)",124,402,3013,2735,74.3,67.9,79.5,"Mild infection",22,"2*mRNA","Beta","All",-1.35867919408692
+34614327,"H. Chemaitelly",2021,50,"A13","2*BNT162b2(>=12y)",106,230,3015,2891,63.9,52.6,72.5,"Mild infection",45.5,"2*mRNA","Beta","All",-1.01887732064926
+34614327,"H. Chemaitelly",2021,51,"A13","2*BNT162b2(>=12y)",55,111,2996,2940,56,37.3,69.1,"Mild infection",75.5,"2*mRNA","Beta","All",-0.82098055206983
+34614327,"H. Chemaitelly",2021,52,"A13","2*BNT162b2(>=12y)",14,20,2990,2984,37.5,-37.7,71.6,"Mild infection",105.5,"2*mRNA","Beta","All",-0.470003629245736
+34614327,"H. Chemaitelly",2021,53,"A13","2*BNT162b2(>=12y)",8,14,2997,2991,54.5,-30.8,84.2,"Mild infection",135.5,"2*mRNA","Beta","All",-0.787457860031187
+34614327,"H. Chemaitelly",2021,54,"A13","2*BNT162b2(>=12y)",5,7,2986,2984,40,-151.1,85.7,"Mild infection",151,"2*mRNA","Beta","All",-0.510825623765991
+34614327,"H. Chemaitelly",2021,55,"A14","2*BNT162b2(>=12y)",24,151,2139,2012,87.6,79.7,92.3,"Mild infection",22,"2*mRNA","Delta","All",-2.0874737133771
+34614327,"H. Chemaitelly",2021,56,"A14","2*BNT162b2(>=12y)",60,200,2153,2013,73.3,63.6,80.4,"Mild infection",45.5,"2*mRNA","Delta","All",-1.32050662058189
+34614327,"H. Chemaitelly",2021,57,"A14","2*BNT162b2(>=12y)",98,209,2146,2035,62.4,50.2,71.6,"Mild infection",75.5,"2*mRNA","Delta","All",-0.978166135592243
+34614327,"H. Chemaitelly",2021,58,"A14","2*BNT162b2(>=12y)",132,178,2153,2107,35.1,14.7,50.6,"Mild infection",105.5,"2*mRNA","Delta","All",-0.432322562278047
+34614327,"H. Chemaitelly",2021,59,"A14","2*BNT162b2(>=12y)",191,220,2141,2112,20.4,-1.9,37.8,"Mild infection",135.5,"2*mRNA","Delta","All",-0.228156093137754
+34614327,"H. Chemaitelly",2021,60,"A14","2*BNT162b2(>=12y)",145,160,2144,2129,17.9,-12.9,40.3,"Mild infection",151,"2*mRNA","Delta","All",-0.197232169529709
+36147595,"H. Chung",2022,54,"E","2*mRNA",108158,700928,107655,618152,92,91,93,"Mild infection",33,"2*mRNA","Alpha","All",-2.52572864430826
+36147595,"H. Chung",2022,55,"E","2*mRNA",108595,674766,107655,618152,84,83,85,"Mild infection",89.5,"2*mRNA","Alpha","All",-1.83258146374831
+36147595,"H. Chung",2022,56,"E","2*mRNA",107775,629433,107655,618152,82,79,85,"Mild infection",149.5,"2*mRNA","Alpha","All",-1.71479842809193
+36147595,"H. Chung",2022,57,"E1","2*mRNA",38433,106351,38324,100564,92,91,94,"Mild infection",33,"2*mRNA","Alpha","All",-2.52572864430826
+36147595,"H. Chung",2022,58,"E1","2*mRNA",38457,104545,38324,100564,88,86,90,"Mild infection",89.5,"2*mRNA","Alpha","All",-2.12026353620009
+36147595,"H. Chung",2022,59,"E1","2*mRNA",38345,101395,38324,100564,86,78,91,"Mild infection",149.5,"2*mRNA","Alpha","All",-1.96611285637283
+36147595,"H. Chung",2022,60,"E2","2*mRNA",5593,106351,5540,100564,94,92,95,"Severe",33,"2*mRNA","Alpha","All",-2.81341071676004
+36147595,"H. Chung",2022,61,"E2","2*mRNA",5554,104545,5540,100564,97,95,98,"Severe",89.5,"2*mRNA","Alpha","All",-3.50655789731998
+36147595,"H. Chung",2022,62,"F","2*mRNA",28224,553331,24816,208554,90,90,90,"Mild infection",33,"2*mRNA","Delta","All",-2.30258509299405
+36147595,"H. Chung",2022,63,"F","2*mRNA",32106,655841,24816,208554,87,86,87,"Mild infection",89.5,"2*mRNA","Delta","All",-2.04022082852655
+36147595,"H. Chung",2022,64,"F","2*mRNA",29199,443437,24816,208554,83,82,83,"Mild infection",149.5,"2*mRNA","Delta","All",-1.77195684193187
+36147595,"H. Chung",2022,67,"F1","2*mRNA",10691,107978,9700,36257,94,94,95,"Mild infection",33,"2*mRNA","Delta","All",-2.81341071676004
+36147595,"H. Chung",2022,68,"F1","2*mRNA",12315,160802,9700,36257,92,92,93,"Mild infection",89.5,"2*mRNA","Delta","All",-2.52572864430826
+36147595,"H. Chung",2022,69,"F1","2*mRNA",11478,96384,9700,36257,90,90,91,"Mild infection",149.5,"2*mRNA","Delta","All",-2.30258509299405
+36147595,"H. Chung",2022,72,"F2","2*mRNA",2106,107978,2035,36257,98,98,99,"Severe",33,"2*mRNA","Delta","All",-3.91202300542815
+36147595,"H. Chung",2022,73,"F2","2*mRNA",2219,160802,2035,36257,98,98,99,"Severe",89.5,"2*mRNA","Delta","All",-3.91202300542815
+36147595,"H. Chung",2022,74,"F2","2*mRNA",2219,96384,2035,36257,97,97,98,"Severe",149.5,"2*mRNA","Delta","All",-3.50655789731998
+36147595,"H. Chung",2022,76,"G","1*ChAdOx1+1*ChAdOx1/mRNA",25066,237708,24816,208554,89,88,91,"Mild infection",33,"Heterologous primary series","Delta","All",-2.20727491318972
+36147595,"H. Chung",2022,77,"G","1*ChAdOx1+1*ChAdOx1/mRNA",25648,252393,24816,208554,84,83,85,"Mild infection",89.5,"Heterologous primary series","Delta","All",-1.83258146374831
+36147595,"H. Chung",2022,78,"G","1*ChAdOx1+1*ChAdOx1/mRNA",25473,234328,24816,208554,76,74,78,"Mild infection",149.5,"Heterologous primary series","Delta","All",-1.42711635564015
+36147595,"H. Chung",2022,79,"G1","1*ChAdOx1+1*ChAdOx1/mRNA",9772,41535,9700,36257,95,93,96,"Mild infection",33,"Heterologous primary series","Delta","All",-2.99573227355399
+36147595,"H. Chung",2022,80,"G1","1*ChAdOx1+1*ChAdOx1/mRNA",10012,47558,9700,36257,92,91,93,"Mild infection",89.5,"Heterologous primary series","Delta","All",-2.52572864430826
+36147595,"H. Chung",2022,81,"G1","1*ChAdOx1+1*ChAdOx1/mRNA",9967,42797,9700,36257,90,88,91,"Mild infection",149.5,"Heterologous primary series","Delta","All",-2.30258509299405
+36147595,"H. Chung",2022,82,"G2","1*ChAdOx1+1*ChAdOx1/mRNA",2043,41535,2035,36257,98,97,99,"Severe",33,"Heterologous primary series","Delta","All",-3.91202300542815
+36147595,"H. Chung",2022,83,"G2","1*ChAdOx1+1*ChAdOx1/mRNA",2057,47558,2035,36257,99,98,99,"Severe",89.5,"Heterologous primary series","Delta","All",-4.60517018598809
+36147595,"H. Chung",2022,84,"G2","1*ChAdOx1+1*ChAdOx1/mRNA",2050,42797,2035,36257,98,97,99,"Severe",149.5,"Heterologous primary series","Delta","All",-3.91202300542815
+36484301,"Ottavia Prunas",2023,1,"A","2*BNT162b2",959,66079,9021,128272,85,84,86,"Mild infection",51.5,"2*mRNA","Delta","Children",-1.89711998488588
+36484301,"Ottavia Prunas",2023,2,"A","2*BNT162b2",162,12881,9021,128272,73,68,77,"Mild infection",119.5,"2*mRNA","Delta","Children",-1.30933331998376
+36484301,"Ottavia Prunas",2023,3,"A","2*BNT162b2",219,5844,9021,128272,53,46,60,"Mild infection",165,"2*mRNA","Delta","Children",-0.755022584278033
+35706105,"S. A. Buchan",2022,1,"A","2*BNT162b2",194,960,831,1370,51,38,61,"Mild infection",33,"2*mRNA","Omicron","Children",-0.713349887877465
+35706105,"S. A. Buchan",2022,2,"A","2*BNT162b2",1068,3589,831,1370,31,20,41,"Mild infection",89.5,"2*mRNA","Omicron","Children",-0.371063681390832
+35706105,"S. A. Buchan",2022,3,"A","2*BNT162b2",5044,12316,831,1370,29,19,38,"Mild infection",149.5,"2*mRNA","Omicron","Children",-0.342490308946776
+35706105,"S. A. Buchan",2022,4,"A","2*BNT162b2",2580,1523,831,1370,29,17,38,"Mild infection",180,"2*mRNA","Omicron","Children",-0.342490308946776
+35706105,"S. A. Buchan",2022,9,"B","2*BNT162b2",6,902,289,1230,97,94,99,"Mild infection",33,"2*mRNA","Delta","Children",-3.50655789731998
+35706105,"S. A. Buchan",2022,10,"B","2*BNT162b2",33,3397,289,1230,96,94,97,"Mild infection",89.5,"2*mRNA","Delta","Children",-3.2188758248682
+35706105,"S. A. Buchan",2022,11,"B","2*BNT162b2",163,11772,289,1230,94,92,95,"Mild infection",149.5,"2*mRNA","Delta","Children",-2.81341071676004
+35706105,"S. A. Buchan",2022,12,"B","2*BNT162b2",9,571,289,1230,90,79,95,"Mild infection",180,"2*mRNA","Delta","Children",-2.30258509299405
+35531384,"S. El Adam",2022,1,"A","2*mRNA",1,278,472,2560,99,90,100,"Mild infection",17,"2*mRNA","Mixture of variants","Adults",-4.60517018598809
+35531384,"S. El Adam",2022,2,"A","2*mRNA",2,237,472,2607,96,85,99,"Mild infection",24,"2*mRNA","Mixture of variants","Adults",-3.2188758248682
+35531384,"S. El Adam",2022,3,"A","2*mRNA",3,256,472,2594,96,86,99,"Mild infection",31,"2*mRNA","Mixture of variants","Adults",-3.2188758248682
+35531384,"S. El Adam",2022,4,"A","2*mRNA",5,311,472,2551,94,85,98,"Mild infection",38,"2*mRNA","Mixture of variants","Adults",-2.81341071676004
+35531384,"S. El Adam",2022,5,"A","2*mRNA",16,807,610,2323,95,91,97,"Mild infection",48.5,"2*mRNA","Mixture of variants","Adults",-2.99573227355399
+35531384,"S. El Adam",2022,6,"A","2*mRNA",119,2234,614,2164,89,85,91,"Mild infection",69.5,"2*mRNA","Mixture of variants","Adults",-2.20727491318972
+35531384,"S. El Adam",2022,7,"A","2*mRNA",114,1626,438,1134,91,88,93,"Mild infection",97.5,"2*mRNA","Mixture of variants","Adults",-2.40794560865187
+35531384,"S. El Adam",2022,8,"A","2*mRNA",151,2073,293,591,86,83,89,"Mild infection",153.5,"2*mRNA","Mixture of variants","Adults",-1.96611285637283
+35974428,"S. Nasreen",2022,1,"A","2*mRNA",256,252611,27990,1401963,98,95,99,"Severe",31,"2*mRNA","Mixture of variants","Adults",-3.91202300542815
+35974428,"S. Nasreen",2022,2,"A","2*mRNA",333,253327,27990,1401963,99,97,99,"Severe",83.5,"2*mRNA","Mixture of variants","Adults",-4.60517018598809
+35974428,"S. Nasreen",2022,3,"A","2*mRNA",98,40476,27990,1401963,98,96,99,"Severe",112,"2*mRNA","Mixture of variants","Adults",-3.91202300542815
+36408616,"M. L. Lind",2022,1,"A","2*mRNA",16,35182,340,171149,83.98,73.44,90.34,"Mild infection",36.5,"2*mRNA","Alpha","Adults",-1.83133224434788
+36408616,"M. L. Lind",2022,2,"A","2*mRNA",6,28114,340,171149,89.39,76.2,95.27,"Mild infection",74.5,"2*mRNA","Alpha","Adults",-2.2433732333622
+36408616,"M. L. Lind",2022,3,"A","2*mRNA",1,44475,340,171149,96.5,75.12,99.51,"Mild infection",119.5,"2*mRNA","Alpha","Adults",-3.35240721749272
+36408616,"M. L. Lind",2022,4,"B","2*mRNA",12,35182,873,171149,65.42,38.74,80.48,"Mild infection",36.5,"2*mRNA","Delta","Adults",-1.06189470573295
+36408616,"M. L. Lind",2022,5,"B","2*mRNA",33,28114,873,171149,68.77,55.69,77.99,"Mild infection",74.5,"2*mRNA","Delta","Adults",-1.1637910146931
+36408616,"M. L. Lind",2022,6,"B","2*mRNA",217,44475,873,171149,49.15,40.41,56.61,"Mild infection",119.5,"2*mRNA","Delta","Adults",-0.676290063493522
+36408616,"M. L. Lind",2022,7,"B","2*mRNA",151,17302,873,171149,37.16,23.97,48.06,"Mild infection",150,"2*mRNA","Delta","Adults",-0.464578372600671
+36408616,"M. L. Lind",2022,10,"B1","2*mRNA",28,20608,515,40730,74.79,62.94,82.85,"Mild infection",51.5,"2*mRNA","Delta","Adults",-1.37792944478826
+36408616,"M. L. Lind",2022,11,"B1","2*mRNA",119,14932,515,40730,56.83,46.42,65.22,"Mild infection",119.5,"2*mRNA","Delta","Adults",-0.840024376420705
+36408616,"M. L. Lind",2022,12,"B1","2*mRNA",80,5484,515,40730,48.44,32.87,60.47,"Mild infection",150,"2*mRNA","Delta","Adults",-0.662424007917105
+36408616,"M. L. Lind",2022,15,"B2","2*mRNA",4,6638,133,14643,85.39,60.24,94.63,"Severe",51.5,"2*mRNA","Delta","Adults",-1.92346396022548
+36408616,"M. L. Lind",2022,16,"B2","2*mRNA",18,4968,133,14643,77.98,63.2,86.83,"Severe",119.5,"2*mRNA","Delta","Adults",-1.51321905469356
+36408616,"M. L. Lind",2022,17,"B2","2*mRNA",20,1772,133,14643,66.15,42.53,80.06,"Severe",150,"2*mRNA","Delta","Adults",-1.08323118662981
+36298460,"R. Moghnieh",2022,6,"B","2*BNT162b2",2,1414,6,210,95.1,78.4,99.3,"Mild infection",81.5,"2*mRNA","Delta","Adults",-3.01593498087151
+36298460,"R. Moghnieh",2022,7,"B","2*BNT162b2",1,1413,2,208,92.2,16.3,99.6,"Mild infection",111.5,"2*mRNA","Delta","Adults",-2.55104645229255
+36298460,"R. Moghnieh",2022,8,"B","2*BNT162b2",4,1409,3,205,80.6,15,95.8,"Mild infection",141.5,"2*mRNA","Delta","Adults",-1.63989711991881
+36298460,"R. Moghnieh",2022,9,"B","2*BNT162b2",12,1397,5,200,72.7,12.5,90.1,"Mild infection",171.5,"2*mRNA","Delta","Adults",-1.29828348379718
+34551225,"Hana M El Sahly",2021,1,"A","2*mRNA-1273",19,11.6,227,141.5,91.8,86.9,95.1,"Mild infection",36.5,"2*mRNA","Mixture of variants","Adults",-2.50103603171788
+34551225,"Hana M El Sahly",2021,2,"A","2*mRNA-1273",28,14.8,434,247.3,94,91.2,96.1,"Mild infection",89.5,"2*mRNA","Mixture of variants","Adults",-2.81341071676004
+34551225,"Hana M El Sahly",2021,3,"A","2*mRNA-1273",8,15.4,83,202.4,92.4,84.3,96.8,"Mild infection",120,"2*mRNA","Mixture of variants","Adults",-2.57702193869581
+34496194,"Mark G Thompson",2021,1,"A","2*BNT162b2",33,1553,3711,16907,87,80,91,"Severe",20.5,"2*mRNA","Mixture of variants","Adults",-2.04022082852655
+34496194,"Mark G Thompson",2021,2,"A","2*BNT162b2",17,1555,3711,16907,95,91,97,"Severe",34.5,"2*mRNA","Mixture of variants","Adults",-2.99573227355399
+34496194,"Mark G Thompson",2021,3,"A","2*BNT162b2",28,1428,3711,16907,86,79,91,"Severe",48.5,"2*mRNA","Mixture of variants","Adults",-1.96611285637283
+34496194,"Mark G Thompson",2021,4,"A","2*BNT162b2",32,1333,3711,16907,83,75,89,"Severe",62.5,"2*mRNA","Mixture of variants","Adults",-1.77195684193187
+34496194,"Mark G Thompson",2021,5,"A","2*BNT162b2",17,1167,3711,16907,90,82,94,"Severe",76.5,"2*mRNA","Mixture of variants","Adults",-2.30258509299405
+34496194,"Mark G Thompson",2021,6,"A","2*BNT162b2",12,851,3711,16907,87,76,93,"Severe",90.5,"2*mRNA","Mixture of variants","Adults",-2.04022082852655
+34496194,"Mark G Thompson",2021,7,"A","2*BNT162b2",18,542,3711,16907,75,57,85,"Severe",104.5,"2*mRNA","Mixture of variants","Adults",-1.38629436111989
+34496194,"Mark G Thompson",2021,8,"A","2*BNT162b2",9,353,3711,16907,83,64,92,"Severe",112,"2*mRNA","Mixture of variants","Adults",-1.77195684193187
+34496194,"Mark G Thompson",2021,9,"B","2*mRNA-1273",15,1153,3711,16907,90,81,94,"Severe",20.5,"2*mRNA","Mixture of variants","Adults",-2.30258509299405
+34496194,"Mark G Thompson",2021,10,"B","2*mRNA-1273",24,1187,3711,16907,89,83,93,"Severe",34.5,"2*mRNA","Mixture of variants","Adults",-2.20727491318972
+34496194,"Mark G Thompson",2021,11,"B","2*mRNA-1273",13,1134,3711,16907,93,87,97,"Severe",48.5,"2*mRNA","Mixture of variants","Adults",-2.65926003693278
+34496194,"Mark G Thompson",2021,12,"B","2*mRNA-1273",19,1010,3711,16907,91,85,94,"Severe",62.5,"2*mRNA","Mixture of variants","Adults",-2.40794560865187
+34496194,"Mark G Thompson",2021,13,"B","2*mRNA-1273",7,857,3711,16907,96,92,98,"Severe",76.5,"2*mRNA","Mixture of variants","Adults",-3.2188758248682
+34496194,"Mark G Thompson",2021,14,"B","2*mRNA-1273",15,650,3711,16907,86,75,92,"Severe",90.5,"2*mRNA","Mixture of variants","Adults",-1.96611285637283
+34496194,"Mark G Thompson",2021,15,"B","2*mRNA-1273",5,406,3711,16907,93,82,97,"Severe",104.5,"2*mRNA","Mixture of variants","Adults",-2.65926003693278
+34496194,"Mark G Thompson",2021,16,"B","2*mRNA-1273",2,204,3711,16907,95,79,99,"Severe",112,"2*mRNA","Mixture of variants","Adults",-2.99573227355399
+35131043,"Peter Nordström",2022,1,"A","2*BNT162b2",333,1700,4039,22100,92,92,93,"Mild infection",22.5,"2*mRNA","Mixture of variants","Adults",-2.52572864430826
+35131043,"Peter Nordström",2022,2,"A","2*BNT162b2",1095,2900,7982,26700,89,88,90,"Mild infection",45.5,"2*mRNA","Mixture of variants","Adults",-2.20727491318972
+35131043,"Peter Nordström",2022,3,"A","2*BNT162b2",1796,2600,6601,16600,84,84,85,"Mild infection",90.5,"2*mRNA","Mixture of variants","Adults",-1.83258146374831
+35131043,"Peter Nordström",2022,4,"A","2*BNT162b2",631,1000,292,1700,47,39,55,"Mild infection",150.5,"2*mRNA","Mixture of variants","Adults",-0.63487827243597
+35131043,"Peter Nordström",2022,7,"B","2*mRNA-1273",20,900,493,22500,96,94,97,"Mild infection",22.5,"2*mRNA","Mixture of variants","Adults",-3.2188758248682
+35131043,"Peter Nordström",2022,8,"B","2*mRNA-1273",67,1500,743,21100,93,90,94,"Mild infection",45.5,"2*mRNA","Mixture of variants","Adults",-2.65926003693278
+35131043,"Peter Nordström",2022,9,"B","2*mRNA-1273",116,1400,418,9000,85,82,88,"Mild infection",90.5,"2*mRNA","Mixture of variants","Adults",-1.89711998488588
+35131043,"Peter Nordström",2022,10,"B","2*mRNA-1273",65,1000,53,2600,71,56,80,"Mild infection",150.5,"2*mRNA","Mixture of variants","Adults",-1.23787435600162
+35131043,"Peter Nordström",2022,12,"C","2*ChAdOx1",33,1400,93,4200,68,52,79,"Mild infection",22.5,"Primary series viral vector","Mixture of variants","Adults",-1.13943428318837
+35131043,"Peter Nordström",2022,13,"C","2*ChAdOx1",53,1200,88,2300,49,28,64,"Mild infection",45.5,"Primary series viral vector","Mixture of variants","Adults",-0.673344553263766
+35131043,"Peter Nordström",2022,14,"C","2*ChAdOx1",293,3500,262,4900,41,29,51,"Mild infection",90.5,"Primary series viral vector","Mixture of variants","Adults",-0.527632742082372
+35131043,"Peter Nordström",2022,15,"C","2*ChAdOx1",86,1600,26,1400,-19,-98,28,"Mild infection",121,"Primary series viral vector","Mixture of variants","Adults",0.173953307123438
+35172051,"Victoria Hall",2022,1,"A","2*BNT162b2",16,1063102,1038,649643,85,72,92,"Mild infection",43.5,"2*mRNA","Mixture of variants","Adults",-1.89711998488588
+35172051,"Victoria Hall",2022,2,"A","2*BNT162b2",264,950734,1038,649643,66,53,75,"Mild infection",103.5,"2*mRNA","Mixture of variants","Adults",-1.07880966137193
+35172051,"Victoria Hall",2022,3,"A","2*BNT162b2",479,528245,1038,649643,68,54,77,"Mild infection",163.5,"2*mRNA","Mixture of variants","Adults",-1.13943428318837
+35172051,"Victoria Hall",2022,5,"B","2*BNT162b2",10,118505,1038,649643,89,78,94,"Mild infection",43.5,"2*mRNA","Mixture of variants","Adults",-2.20727491318972
+35172051,"Victoria Hall",2022,6,"B","2*BNT162b2",6,130389,1038,649643,59,18,79,"Mild infection",103.5,"2*mRNA","Mixture of variants","Adults",-0.891598119283784
+35172051,"Victoria Hall",2022,7,"B","2*BNT162b2",47,118192,1038,649643,50,26,67,"Mild infection",163.5,"2*mRNA","Mixture of variants","Adults",-0.693147180559945
+35172051,"Victoria Hall",2022,9,"C","2*ChAdOx1",15,79806,1038,649643,58,23,77,"Mild infection",43.5,"Primary series viral vector","Mixture of variants","Adults",-0.867500567704723
+35172051,"Victoria Hall",2022,10,"C","2*ChAdOx1",51,59593,1038,649643,50,29,65,"Mild infection",103.5,"Primary series viral vector","Mixture of variants","Adults",-0.693147180559945
+35172051,"Victoria Hall",2022,11,"C","2*ChAdOx1",26,16936,1038,649643,72,39,87,"Mild infection",177,"Primary series viral vector","Mixture of variants","Adults",-1.27296567581289
+35172051,"Victoria Hall",2022,1,"D","2*BNT162b2 convalescents",16,1063102,1038,649643,94,75,99,"Mild infection",43.5,"2*mRNA","Mixture of variants","Adults",-2.81341071676004
+35172051,"Victoria Hall",2022,2,"D","2*BNT162b2 convalescents",264,950734,1038,649643,97,93,98,"Mild infection",103.5,"2*mRNA","Mixture of variants","Adults",-3.50655789731998
+35172051,"Victoria Hall",2022,3,"D","2*BNT162b2 convalescents",479,528245,1038,649643,93,89,96,"Mild infection",163.5,"2*mRNA","Mixture of variants","Adults",-2.65926003693278
