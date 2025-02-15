@@ -156,8 +156,8 @@ models_nab <- list(model_1=bf(logGMT ~ Time*Immunity.type*Tested.variant+Age.gro
 pre_nab_results_list <- lapply(models_nab,function(model){
   brm(formula=model,
       data=pre_nab,
-      prior=c(prior(normal(0,5),class=b, coef = "Time"),
-              prior(normal(0,5), class=Intercept)),
+      prior=c(prior(normal(0,1000),class=b, coef = "Time"),
+              prior(normal(0,1000), class=Intercept)),
       seed=225,
       warmup = 1000,
       iter = 2000,
@@ -170,8 +170,8 @@ pre_nab_results_list <- lapply(models_nab,function(model){
 post_nab_results_list <- lapply(models_nab,function(model){
   brm(formula=model,
       data=post_nab,
-      prior=c(prior(normal(0,5),class=b, coef = "Time"),
-              prior(normal(0,5), class=Intercept)),
+      prior=c(prior(normal(0,1000),class=b, coef = "Time"),
+              prior(normal(0,1000), class=Intercept)),
       seed=225,
       warmup = 1000,
       iter = 2000,
@@ -195,8 +195,8 @@ models_VE <- list(
 pre_VE_results_list_mild<- lapply(models_VE,function(model){
   brm(formula=model,
       data=pre_VE_mild,
-      prior=c(prior(normal(0,5),class=b, coef = "Time"),
-              prior(normal(0,5), class=Intercept)),
+      prior=c(prior(normal(0,1000),class=b, coef = "Time"),
+              prior(normal(0,1000), class=Intercept)),
       seed =225,
       warmup = 1000,
       iter = 2000,
@@ -209,8 +209,8 @@ pre_VE_results_list_mild<- lapply(models_VE,function(model){
 pre_VE_results_list_severe<- lapply(models_VE,function(model){
   brm(formula=model,
       data=pre_VE_severe,
-      prior=c(prior(normal(0,5),class=b, coef = "Time"),
-              prior(normal(0,5), class=Intercept)),
+      prior=c(prior(normal(0,1000),class=b, coef = "Time"),
+              prior(normal(0,1000), class=Intercept)),
       seed =225,
       warmup = 1000,
       iter = 2000,
@@ -223,8 +223,8 @@ pre_VE_results_list_severe<- lapply(models_VE,function(model){
 post_VE_results_list_mild <- lapply(models_VE,function(model){
   brm(formula=model,
       data=post_VE_mild,
-      prior=c(prior(normal(0,5),class=b, coef = "Time"),
-              prior(normal(0,5), class=Intercept)),
+      prior=c(prior(normal(0,1000),class=b, coef = "Time"),
+              prior(normal(0,1000), class=Intercept)),
       warmup = 1000,
       iter = 2000,
       chains = 4,
@@ -237,8 +237,8 @@ post_VE_results_list_mild <- lapply(models_VE,function(model){
 post_VE_results_list_severe <- lapply(models_VE,function(model){
   brm(formula=model,
       data=post_VE_severe,
-      prior=c(prior(normal(0,5),class=b, coef = "Time"),
-              prior(normal(0,5), class=Intercept)),
+      prior=c(prior(normal(0,1000),class=b, coef = "Time"),
+              prior(normal(0,1000), class=Intercept)),
       warmup = 1000,
       iter = 2000,
       chains = 4,
@@ -432,7 +432,7 @@ figure1_function <- function(model,booster_status){
                          labels=c("128", "32", "8", "2", "1", as.character(y_min)),
                          trans=trans_reverser('log2'),
                          name="Fold drop of GMT")+
-      facet_wrap(~Tested.variant, nrow=1)+
+      facet_wrap(~Tested.variant, nrow=1, scales="free")+
       geom_text(data=annotation, label="Ref", color="black", size=16,  hjust=0.7)+
       theme(strip.text = element_text(size = 36, face="bold"),
             axis.text.x = element_text(size = 36))}
@@ -446,7 +446,7 @@ figure1_function <- function(model,booster_status){
                          name="Fold drop of GMT")+
       facet_wrap(~Tested.variant, 
                  nrow=2,
-                 scales = "free_x")+
+                 scales = "free")+
       geom_text(data=annotation, label="Ref", color="black", size=16,  hjust=0.7)+
       theme(strip.text = element_text(size = 36, face="bold"),
             axis.text.x = element_text(size = 36))
@@ -564,6 +564,24 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
            VE_ll_plot=ifelse(VE_ll>0, VE_ll, 0),
            VE_ul_plot=ifelse(VE_ul>0, VE_ul, 0))
   
+  y_intercept_omicron_mild = if(type=="_pre_VE"){
+    plot_dat_mild$VE_median_plot[ plot_dat_mild$Vaccine.abbre=="mRNA"&
+                                    plot_dat_mild$Variant=="Omicron BA.1/1.1/2" &
+                                    plot_dat_mild$Time=="14"]
+  }else{
+    plot_dat_mild$VE_median_plot[ plot_dat_mild$Vaccine.abbre=="mRNA"&
+                                    plot_dat_mild$Variant=="Omicron BA.1/1.1/2" &
+                                    plot_dat_mild$Time=="7"]}
+  y_intercept_omicron_severe =if(type=="_pre_VE"){
+    plot_dat_severe$VE_median_plot[plot_dat_severe$Vaccine.abbre=="mRNA"&
+                                     plot_dat_severe$Variant=="Omicron BA.1/1.1/2" &
+                                     plot_dat_severe$Time=="14"]
+  }else{
+    plot_dat_severe$VE_median_plot[plot_dat_severe$Vaccine.abbre=="mRNA"&
+                                     plot_dat_severe$Variant=="Omicron BA.1/1.1/2" &
+                                     plot_dat_severe$Time=="7"]
+  }
+  
   title_number=if(type=="_pre_VE"){c("A", "B")}else{c("C","D")}
   # status=if(type=="_pre_VE"){"Primary-immunized"}else{"Booster-immunized"}
   # severe_status=if(type=="_pre_VE"){"severe/fatal infections"}else{"severe infections"}
@@ -577,7 +595,7 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
                   width=0.5,
                   size=2,
                   position = position_dodge(width=0.5))+
-    geom_hline(yintercept = 0, linetype = "dashed", color = "black", linewidth=2)+
+    geom_hline(yintercept = y_intercept_omicron_mild, linetype = "dashed", color = "black", linewidth=2)+
     scale_color_manual(values = c("14"=my_palette[1],
                                   "30"=my_palette[2],
                                   "90"=my_palette[3],
@@ -607,7 +625,7 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
                   width=0.5,
                   size=2,
                   position = position_dodge(width=0.5))+
-    geom_hline(yintercept = 0, linetype = "dashed", color = "black", linewidth=2)+
+    geom_hline(yintercept = y_intercept_omicron_severe, linetype = "dashed", color = "black", linewidth=2)+
     scale_color_manual(values = c("14"=my_palette[1],
                                   "30"=my_palette[2],
                                   "90"=my_palette[3],
@@ -633,7 +651,7 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
   if(type=="_pre_VE"){
     plot_mild =  plot_mild +
       facet_wrap(~Variant, nrow=2,
-                 scales = "free_x")+
+                 scales = "free")+
       theme(strip.text = element_text(size = 36, face="bold"))
     
     combined_plot = ggarrange(plot_mild,
@@ -646,7 +664,7 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
   }
   else{
     plot_mild =  plot_mild +
-      facet_wrap(~Variant, nrow=1)+
+      facet_wrap(~Variant, nrow=1, scales="free")+
       theme(strip.text = element_text(size = 36, face="bold"))
     
     combined_plot = ggarrange(plot_mild,
