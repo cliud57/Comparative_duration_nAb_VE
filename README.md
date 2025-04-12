@@ -1,6 +1,6 @@
 # Comparative_duration_nAb_VE
 
-Data and R scripts were used to support the paper: Chang Liu, Tim K. Tsang, Sheena G. Sullivan, Benjamin J. Cowling, Bingyi Yang*. Comparative duration of neutralizing responses and protection of COVID-19 vaccinations and correlates of protection against symptomatic, severe, and fatal SARS-CoV-2 infections: A meta-analysis and modeling study. 2024
+Data and R scripts were used to support the paper: Chang Liu, Tim K. Tsang, Sheena G. Sullivan, Benjamin J. Cowling, Bingyi Yang*. Comparative duration of neutralizing responses and protections of COVID-19 vaccination and correlates of protection.
 
 Correspondance regarding this study should be addressed to Bingyi Yang (byyang@connect.hku.hk).
 
