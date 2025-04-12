@@ -75,7 +75,7 @@ estimated_data <- function(model, estimated_input, type){
   output=tibble(posterior_epred(model, estimated_input, re_formula = NA))
   
   organized_output=if(type=="nab"){
-    data.frame(mean_logGMT=apply(output,2,median),
+    data.frame(mean_logGMT=apply(output,2,mean),
                sd_logGMT=apply(output,2,sd)) %>%
       mutate(logGMT=mean_logGMT,
              logGMT_ll=mean_logGMT-1.96*sd_logGMT,
@@ -83,7 +83,7 @@ estimated_data <- function(model, estimated_input, type){
       cbind(estimated_input) %>%
       mutate_if(names(.) %in% c("Immunity.type","Tested.variant"), factor)
   } else{
-    data.frame(mean_logRR=apply(output,2,median),
+    data.frame(mean_logRR=apply(output,2,mean),
                sd_logRR=apply(output,2,sd)) %>%
       mutate(VE=100*(1-exp(mean_logRR)),
              VE_ll=100*(1-exp(mean_logRR+1.96*sd_logRR)),
@@ -286,8 +286,8 @@ model_comparison <- function(list, observed_data, suffix){
   
   rmse_result=lapply(list, function(i){
     value=posterior_epred(i)
-    value_median=sapply(value, median)
-    difference=observed-value_median
+    value_mean=sapply(value, mean)
+    difference=observed-value_mean
     
     rmse=sqrt(mean(difference^2))
   }) %>% do.call("rbind", .) 
@@ -352,7 +352,7 @@ figure1_function <- function(model,booster_status){
     dat = as_tibble(posterior_epred(model, input, re_formula = NA))
   } 
   
-  median = dat %>% summarise(across(everything(),~median(.))) %>% as.numeric()
+  mean = dat %>% summarise(across(everything(),~mean(.))) %>% as.numeric()
   ll = dat %>% summarise(across(everything(),~quantile(., 0.025))) %>% as.numeric()
   ul = dat %>% summarise(across(everything(),~quantile(., 0.975))) %>% as.numeric()
   
@@ -361,13 +361,13 @@ figure1_function <- function(model,booster_status){
     group_by(group) %>% 
     mutate(across(everything(), ~ first(.)-.))
   
-  fold_median = exp(as.numeric(apply(fold_change_dat, 1, median)))
+  fold_mean = exp(as.numeric(apply(fold_change_dat, 1, mean)))
   fold_ll= exp(as.numeric(apply(fold_change_dat, 1, function(x)quantile(x,0.025))))
   fold_ul= exp(as.numeric(apply(fold_change_dat, 1, function(x)quantile(x,0.975))))
   
   plot_dat =cbind(input,
-                  median, ll, ul,
-                  fold_median, fold_ll, fold_ul) %>% 
+                  mean, ll, ul,
+                  fold_mean, fold_ll, fold_ul) %>% 
     mutate(Immunity.abbre=case_when(
       Immunity.type %in% c("2*mRNA", "3*mRNA") ~ "mRNA",
       Immunity.type %in% c("2*Inactivated", "3*Inactivated") ~ "Inactivated",
@@ -390,19 +390,19 @@ figure1_function <- function(model,booster_status){
   
   annotation = if(booster_status=="pre_nab"){
     tibble(Immunity.abbre= factor(c("mRNA","Inactivated","Viral\nvector")),
-           fold_median=0.8,
+           fold_mean=0.8,
            Tested.variant=factor("Ancestral"),
            Time=factor(time[1]))}
   else{
     tibble(Immunity.abbre= factor(c("mRNA","Inactivated","Viral\nvector", "Hetero-\nlogous",
                                     "Infected\n+\nmRNA","Infected\n+\nInactivated","Infected\n+\nViral\nvector")),
-           fold_median=0.8,
+           fold_mean=0.8,
            Tested.variant=factor("Ancestral"),
            Time=factor(time[1]))
   } 
   
   waning_plot <- ggplot(data=plot_dat,
-                        aes(x=Immunity.abbre,y=fold_median, color=Time))+
+                        aes(x=Immunity.abbre,y=fold_mean, color=Time))+
     geom_point(position=position_dodge(0.7), size=10,
                show.legend = TRUE)+
     geom_errorbar(aes(ymin=fold_ll,
@@ -512,21 +512,21 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
     dat_severe = as_tibble(posterior_epred(model_severe, input, re_formula = NA))
   }
   
-  median_mild = dat_mild %>% summarise(across(everything(),~median(.))) %>% as.numeric()
+  mean_mild = dat_mild %>% summarise(across(everything(),~mean(.))) %>% as.numeric()
   ll_mild = dat_mild %>% summarise(across(everything(),~quantile(., 0.025))) %>% as.numeric()
   ul_mild = dat_mild %>% summarise(across(everything(),~quantile(., 0.975))) %>% as.numeric()
   
-  median_severe = dat_severe %>% summarise(across(everything(),~median(.))) %>% as.numeric()
+  mean_severe = dat_severe %>% summarise(across(everything(),~mean(.))) %>% as.numeric()
   ll_severe = dat_severe %>% summarise(across(everything(),~quantile(., 0.025))) %>% as.numeric()
   ul_severe = dat_severe %>% summarise(across(everything(),~quantile(., 0.975))) %>% as.numeric()
   
   if(type=="_pre_VE"){
-    plot_dat_mild = cbind(mild_input,median_mild, ll_mild, ul_mild) 
-    plot_dat_severe = cbind(severe_input,median_severe, ll_severe, ul_severe)
+    plot_dat_mild = cbind(mild_input,mean_mild, ll_mild, ul_mild) 
+    plot_dat_severe = cbind(severe_input,mean_severe, ll_severe, ul_severe)
   }
   else{
-    plot_dat_mild = cbind(input,median_mild, ll_mild, ul_mild) 
-    plot_dat_severe = cbind(input,median_severe, ll_severe, ul_severe)
+    plot_dat_mild = cbind(input,mean_mild, ll_mild, ul_mild) 
+    plot_dat_severe = cbind(input,mean_severe, ll_severe, ul_severe)
   }
   Variant.level=c("Delta" , "Omicron BA.1/1.1/2", "Alpha", "Beta", "Gamma")
   
@@ -540,10 +540,10 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
     mutate(Variant=factor(Variant, levels=c(Variant.level, "Mixed variants")),
            Time=factor(Time, levels=c("7", "14", "30", "90", "140", "180")),
            Vaccine.abbre=factor(Vaccine.abbre, levels=c("mRNA", "Viral\nvector", "Hetero-\nlogous"))) %>% 
-    mutate(VE_median=(1-exp(median_mild))*100,
+    mutate(VE_mean=(1-exp(mean_mild))*100,
            VE_ll=(1-exp(ul_mild))*100,
            VE_ul=(1-exp(ll_mild))*100) %>% 
-    mutate(VE_median_plot=ifelse(VE_median>0, VE_median, 0),
+    mutate(VE_mean_plot=ifelse(VE_mean>0, VE_mean, 0),
            VE_ll_plot=ifelse(VE_ll>0, VE_ll, 0),
            VE_ul_plot=ifelse(VE_ul>0, VE_ul, 0))
   
@@ -557,27 +557,27 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
     mutate(Variant=factor(Variant, levels=c(Variant.level, "Mixed variants")),
            Time=factor(Time, levels=c("7", "14", "30", "90", "140", "180")),
            Vaccine.abbre=factor(Vaccine.abbre, levels=c("mRNA", "Viral\nvector", "Hetero-\nlogous")))%>% 
-    mutate(VE_median=(1-exp(median_severe))*100,
+    mutate(VE_mean=(1-exp(mean_severe))*100,
            VE_ll=(1-exp(ul_severe))*100,
            VE_ul=(1-exp(ll_severe))*100) %>% 
-    mutate(VE_median_plot=ifelse(VE_median>0, VE_median, 0),
+    mutate(VE_mean_plot=ifelse(VE_mean>0, VE_mean, 0),
            VE_ll_plot=ifelse(VE_ll>0, VE_ll, 0),
            VE_ul_plot=ifelse(VE_ul>0, VE_ul, 0))
   
   y_intercept_omicron_mild = if(type=="_pre_VE"){
-    plot_dat_mild$VE_median_plot[ plot_dat_mild$Vaccine.abbre=="mRNA"&
+    plot_dat_mild$VE_mean_plot[ plot_dat_mild$Vaccine.abbre=="mRNA"&
                                     plot_dat_mild$Variant=="Omicron BA.1/1.1/2" &
                                     plot_dat_mild$Time=="14"]
   }else{
-    plot_dat_mild$VE_median_plot[ plot_dat_mild$Vaccine.abbre=="mRNA"&
+    plot_dat_mild$VE_mean_plot[ plot_dat_mild$Vaccine.abbre=="mRNA"&
                                     plot_dat_mild$Variant=="Omicron BA.1/1.1/2" &
                                     plot_dat_mild$Time=="7"]}
   y_intercept_omicron_severe =if(type=="_pre_VE"){
-    plot_dat_severe$VE_median_plot[plot_dat_severe$Vaccine.abbre=="mRNA"&
+    plot_dat_severe$VE_mean_plot[plot_dat_severe$Vaccine.abbre=="mRNA"&
                                      plot_dat_severe$Variant=="Omicron BA.1/1.1/2" &
                                      plot_dat_severe$Time=="14"]
   }else{
-    plot_dat_severe$VE_median_plot[plot_dat_severe$Vaccine.abbre=="mRNA"&
+    plot_dat_severe$VE_mean_plot[plot_dat_severe$Vaccine.abbre=="mRNA"&
                                      plot_dat_severe$Variant=="Omicron BA.1/1.1/2" &
                                      plot_dat_severe$Time=="7"]
   }
@@ -587,7 +587,7 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
   # severe_status=if(type=="_pre_VE"){"severe/fatal infections"}else{"severe infections"}
   
   plot_mild=ggplot(data=plot_dat_mild, 
-                   aes(x=Vaccine.abbre,y=VE_median_plot, color=Time))+
+                   aes(x=Vaccine.abbre,y=VE_mean_plot, color=Time))+
     geom_point(position = position_dodge(width=0.5), size=10,
                show.legend = TRUE)+
     geom_errorbar(aes(ymin=VE_ll_plot,
@@ -617,7 +617,7 @@ figure2_function <- function(model_mild, model_severe, Variant.condition, type){
       color="Days since complete immunizations")
   
   plot_severe=ggplot(data=plot_dat_severe, 
-                     aes(x=Vaccine.abbre,y=VE_median_plot, color=Time))+
+                     aes(x=Vaccine.abbre,y=VE_mean_plot, color=Time))+
     geom_point(position = position_dodge(width=0.5), size=10,
                show.legend = TRUE)+
     geom_errorbar(aes(ymin=VE_ll_plot,
@@ -1004,19 +1004,19 @@ figure4_function <- function(mild_correlation_data,
   
   plotA = ggplot()+
     geom_ribbon(data= correlation_quantile_list[[1]][[Variant.condition[1]]][[2]],
-                aes(y=VE_median, x=GMT_median,
+                aes(y=VE_mean, x=GMT_mean,
                     xmin=GMT_ll,xmax=GMT_ul,fill="color4"),alpha=0.3, color=NA)+
     geom_ribbon(data= correlation_quantile_list[[1]][[Variant.condition[2]]][[2]],
-                aes(y=VE_median,x=GMT_median,
+                aes(y=VE_mean,x=GMT_mean,
                     xmin=GMT_ll,xmax=GMT_ul,fill="color5"),alpha=0.3, color=NA)+
     geom_ribbon(data= correlation_quantile_list[[1]][[Variant.condition[3]]][[2]],
-                aes(y=VE_median,x=GMT_median,
+                aes(y=VE_mean,x=GMT_mean,
                     xmin=GMT_ll,xmax=GMT_ul,fill="color1"),alpha=0.3, color=NA)+
     geom_ribbon(data=correlation_quantile_list[[1]][[Variant.condition[4]]][[2]],
-                aes(y=VE_median,x=GMT_median,
+                aes(y=VE_mean,x=GMT_mean,
                     xmin=GMT_ll,xmax=GMT_ul,fill="color3"),alpha=0.3, color=NA)+
     geom_ribbon(data=correlation_quantile_list[[1]][[Variant.condition[5]]][[2]],
-                aes(y=VE_median,x=GMT_median,
+                aes(y=VE_mean,x=GMT_mean,
                     xmin=GMT_ll,xmax=GMT_ul,fill="color2"),alpha=0.3, color=NA)+
     geom_line(data=correlation_quantile_list[[1]][[Variant.condition[1]]][[1]],
               aes(x=GMT, y=VE,color="color4"),alpha=1, linewidth=7)+
@@ -1066,13 +1066,13 @@ figure4_function <- function(mild_correlation_data,
   
   plotB = ggplot()+
     geom_ribbon(data= correlation_quantile_list[[2]][[Variant.condition[1]]][[2]],
-                aes(y=VE_median, x=GMT_median,
+                aes(y=VE_mean, x=GMT_mean,
                     xmin=GMT_ll,xmax=GMT_ul,fill="color4"),alpha=0.3, color=NA)+
     geom_ribbon(data= correlation_quantile_list[[2]][[Variant.condition[2]]][[2]],
-                aes(y=VE_median,x=GMT_median,
+                aes(y=VE_mean,x=GMT_mean,
                     xmin=GMT_ll,xmax=GMT_ul,fill="color5"),alpha=0.3, color=NA)+
     geom_ribbon(data= correlation_quantile_list[[2]][[Variant.condition[3]]][[2]],
-                aes(y=VE_median,x=GMT_median,
+                aes(y=VE_mean,x=GMT_mean,
                     xmin=GMT_ll,xmax=GMT_ul,fill="color1"),alpha=0.3, color=NA)+
     geom_line(data=correlation_quantile_list[[2]][[Variant.condition[1]]][[1]],
               aes(x=GMT, y=VE,color="color4"),alpha=1, linewidth=7)+
@@ -1209,10 +1209,10 @@ correlation_data_quantile_subset <- function(estimated_correaltion_data,
     ungroup() %>%
     slice(1:100)%>%
     select(-c(logGMT,logRR,logGMT_change,logRR_change,logGMT_change_percent,logRR_change_percent, GMT, VE)) %>%
-    cbind(GMT_median=estimated_results$GMT,
-          VE_median=estimated_results$VE) %>% 
-    mutate(logGMT_change_median=log(GMT_median)-log(GMT_median[time==min(time)]),
-           logRR_change_median=log(1-VE_median/100)-log(1-VE_median[time==min(time)]/100))
+    cbind(GMT_mean=estimated_results$GMT,
+          VE_mean=estimated_results$VE) %>% 
+    mutate(logGMT_change_mean=log(GMT_mean)-log(GMT_mean[time==min(time)]),
+           logRR_change_mean=log(1-VE_mean/100)-log(1-VE_mean[time==min(time)]/100))
   
   return(list(estimated_results,grouped_correlated_data))
   
